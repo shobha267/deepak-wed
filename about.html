@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | DBG Gastro Care</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Innovative Background Decorations -->
+    <div class="bg-decor">
+        <div class="decor-item decor-1"><i class="fas fa-plus-circle decor-cross"></i></div>
+        <div class="decor-item decor-2"><i class="fas fa-heartbeat"></i></div>
+        <div class="decor-item decor-3"><i class="fas fa-stethoscope decor-circle"></i></div>
+        <div class="decor-item decor-4"><i class="fas fa-dna"></i></div>
+        <div class="decor-item decor-5"><i class="fas fa-briefcase-medical decor-cross"></i></div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container navbar">
+            <a href="index.html" class="logo">
+                <img src="assets/logo.png" alt="DBG Gastro Care Logo">
+            </a>
+            
+            <nav class="nav-links" id="navLinks">
+                <a href="index.html" data-key="nav_home">Home</a>
+                <a href="about.html" class="active" data-key="nav_about">About</a>
+                <a href="services.html" data-key="nav_services">Services</a>
+                <a href="procedures.html" data-key="nav_procedures">Procedures</a>
+                <a href="contact.html" data-key="nav_contact">Contact</a>
+            </nav>
+            
+            <div class="lang-dropdown">
+                <button class="lang-dropbtn">
+                    <i class="fas fa-globe"></i> <span>English</span> <i class="fas fa-chevron-down" style="font-size: 0.7em;"></i>
+                </button>
+                <div class="lang-dropdown-content">
+                    <a href="#" data-lang="en">English</a>
+                    <a href="#" data-lang="kn">Kannada</a>
+                    <a href="#" data-lang="hi">Hindi</a>
+                </div>
+            </div>
+
+            <div class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 data-key="about_header_title">About Us</h1>
+            <p data-key="about_header_desc">Dedicated to providing the highest quality gastrointestinal surgical care in Mysore.</p>
+        </div>
+    </section>
+
+    <!-- Doctor Section -->
+    <section class="doctor-intro">
+        <div class="container">
+            <div class="doctor-content">
+                <div class="doctor-img-wrap reveal reveal-left active">
+                    <img src="assets/doctor.png" alt="Dr. Deepak B G">
+                </div>
+                <div class="doctor-details reveal reveal-right active">
+                    <h2 data-key="doc_name">Dr. Deepak B G</h2>
+                    <p style="color: var(--primary-green); font-weight: bold; margin-bottom: 5px;" data-key="doc_degree">MS from JIPMER, MCh from GB Pant Institute</p>
+                    <p style="font-weight: bold; margin-bottom: 15px;" data-key="doc_specialty">A surgical gastroenterologist</p>
+                    <p data-key="doc_desc_1">Dr. Deepak B, a distinguished surgical gastroenterologist based in Mysore, boasts a decade of valuable experience in the field. His educational background includes an MS in Surgery from the prestigious JIPMER and an MCh in Surgical Gastroenterology from the renowned GB Pant Institute in Delhi.</p>
+                    <p data-key="doc_desc_2">He is specialized in complex gastrointestinal surgeries and has a proven track record of successful outcomes in oncology and laparoscopic procedures.</p>
+                    <ul style="margin-top: 15px; margin-bottom: 20px; list-style-type: none;">
+                        <li><i class="fas fa-check-circle" style="color: var(--primary-green); margin-right: 8px;"></i> <span data-key="doc_bullet_1">Over 1000 successful GI oncology surgeries</span></li>
+                        <li><i class="fas fa-check-circle" style="color: var(--primary-green); margin-right: 8px;"></i> <span data-key="doc_bullet_2">More than 500 advanced laparoscopic procedures</span></li>
+                        <li><i class="fas fa-check-circle" style="color: var(--primary-green); margin-right: 8px;"></i> <span data-key="doc_bullet_3">Numerous intricate hepato-pancreatico-biliary surgeries</span></li>
+                        <li><i class="fas fa-check-circle" style="color: var(--primary-green); margin-right: 8px;"></i> <span data-key="doc_bullet_4">Challenging redo and revision surgeries</span></li>
+                        <li><i class="fas fa-check-circle" style="color: var(--primary-green); margin-right: 8px;"></i> <span data-key="doc_bullet_5">Comprehensive management of complex gastrointestinal disorders</span></li>
+                    </ul>
+
+                    <!-- Vision Section - Visual Creative Design -->
+                    <div class="vision-section-animated" id="visionSection">
+                        <style>
+                            .vision-section-animated { margin-top: 35px; }
+
+                            /* --- Main Vision Banner --- */
+                            .vision-banner {
+                                position: relative;
+                                border-radius: 18px;
+                                overflow: hidden;
+                                background: linear-gradient(135deg, #00549A 0%, #003f75 50%, #004f22 100%);
+                                padding: 28px 28px 22px;
+                                margin-bottom: 20px;
+                                box-shadow: 0 10px 36px rgba(0,84,154,0.22);
+                                animation: visionBannerIn 0.8s cubic-bezier(0.22,1,0.36,1) both;
+                            }
+                            @keyframes visionBannerIn {
+                                from { opacity: 0; transform: translateY(25px); }
+                                to   { opacity: 1; transform: translateY(0); }
+                            }
+                            /* Watermark icon */
+                            .vision-banner::before {
+                                content: '\f06e';
+                                font-family: 'Font Awesome 6 Free';
+                                font-weight: 900;
+                                position: absolute;
+                                right: -15px;
+                                bottom: -20px;
+                                font-size: 9rem;
+                                color: rgba(255,255,255,0.05);
+                                pointer-events: none;
+                            }
+                            /* Glowing orb */
+                            .vision-banner::after {
+                                content: '';
+                                position: absolute;
+                                top: -30px; right: -30px;
+                                width: 150px; height: 150px;
+                                background: radial-gradient(circle, rgba(245,130,32,0.25) 0%, transparent 70%);
+                                border-radius: 50%;
+                                pointer-events: none;
+                                animation: orbPulse 3s ease-in-out infinite;
+                            }
+                            @keyframes orbPulse {
+                                0%,100% { transform: scale(1); opacity: 0.6; }
+                                50%     { transform: scale(1.2); opacity: 1; }
+                            }
+                            .vision-banner-header {
+                                display: flex;
+                                align-items: center;
+                                gap: 14px;
+                                margin-bottom: 12px;
+                            }
+                            .vision-eye-icon {
+                                width: 50px; height: 50px;
+                                border-radius: 50%;
+                                background: rgba(255,255,255,0.15);
+                                border: 2px solid rgba(255,255,255,0.3);
+                                display: flex; align-items: center; justify-content: center;
+                                font-size: 1.4rem; color: #fff;
+                                animation: iconPulseV 2.5s ease-in-out infinite;
+                                flex-shrink: 0;
+                            }
+                            @keyframes iconPulseV {
+                                0%,100% { box-shadow: 0 0 0 0 rgba(255,255,255,0.3); }
+                                50%     { box-shadow: 0 0 0 10px rgba(255,255,255,0); }
+                            }
+                            .vision-banner-title {
+                                font-size: 1.4rem;
+                                font-weight: 700;
+                                color: #fff;
+                                margin: 0; padding: 0;
+                            }
+                            .vision-banner-title::after { display: none; }
+                            .vision-banner-divider {
+                                height: 2px;
+                                background: linear-gradient(90deg, rgba(245,130,32,0.9), rgba(103,160,38,0.9), transparent);
+                                border-radius: 2px;
+                                margin-bottom: 14px;
+                                animation: dividerExpandV 1s ease-out 0.4s both;
+                                transform-origin: left;
+                            }
+                            @keyframes dividerExpandV {
+                                from { transform: scaleX(0); } to { transform: scaleX(1); }
+                            }
+                            .vision-banner-text {
+                                color: rgba(255,255,255,0.88);
+                                line-height: 1.7;
+                                font-size: 0.93rem;
+                                margin: 0;
+                            }
+
+                            /* --- Vision Pillars Grid --- */
+                            .vision-pillars {
+                                display: grid;
+                                grid-template-columns: repeat(3, 1fr);
+                                gap: 14px;
+                            }
+                            .vision-pillar {
+                                background: #fff;
+                                border-radius: 16px;
+                                padding: 22px 16px 18px;
+                                text-align: center;
+                                box-shadow: 0 4px 18px rgba(0,84,154,0.08);
+                                border-bottom: 3px solid transparent;
+                                transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s;
+                                animation: pillarIn 0.7s cubic-bezier(0.22,1,0.36,1) both;
+                                cursor: default;
+                            }
+                            .vision-pillar:nth-child(1) { animation-delay: 0.1s; border-bottom-color: #00549A; }
+                            .vision-pillar:nth-child(2) { animation-delay: 0.25s; border-bottom-color: #67A026; }
+                            .vision-pillar:nth-child(3) { animation-delay: 0.4s; border-bottom-color: #F58220; }
+                            @keyframes pillarIn {
+                                from { opacity: 0; transform: translateY(20px); }
+                                to   { opacity: 1; transform: translateY(0); }
+                            }
+                            .vision-pillar:hover {
+                                transform: translateY(-6px);
+                                box-shadow: 0 12px 30px rgba(0,84,154,0.14);
+                            }
+                            .vision-pillar-icon {
+                                width: 60px; height: 60px;
+                                border-radius: 50%;
+                                display: flex; align-items: center; justify-content: center;
+                                font-size: 1.6rem;
+                                color: #fff;
+                                margin: 0 auto 14px;
+                                position: relative;
+                            }
+                            .vision-pillar:nth-child(1) .vision-pillar-icon {
+                                background: linear-gradient(135deg, #00549A, #0077C0);
+                                box-shadow: 0 6px 20px rgba(0,84,154,0.35);
+                            }
+                            .vision-pillar:nth-child(2) .vision-pillar-icon {
+                                background: linear-gradient(135deg, #67A026, #008751);
+                                box-shadow: 0 6px 20px rgba(103,160,38,0.35);
+                            }
+                            .vision-pillar:nth-child(3) .vision-pillar-icon {
+                                background: linear-gradient(135deg, #F58220, #E11C54);
+                                box-shadow: 0 6px 20px rgba(245,130,32,0.35);
+                            }
+                            .vision-pillar-icon::after {
+                                content: '';
+                                position: absolute;
+                                inset: -4px;
+                                border-radius: 50%;
+                                background: inherit;
+                                opacity: 0.2;
+                                animation: ripple 2.5s ease-out infinite;
+                            }
+                            .vision-pillar:nth-child(1) .vision-pillar-icon::after { animation-delay: 0s; }
+                            .vision-pillar:nth-child(2) .vision-pillar-icon::after { animation-delay: 0.8s; }
+                            .vision-pillar:nth-child(3) .vision-pillar-icon::after { animation-delay: 1.6s; }
+                            @keyframes ripple {
+                                0%   { transform: scale(1); opacity: 0.25; }
+                                100% { transform: scale(1.9); opacity: 0; }
+                            }
+                            .vision-pillar-label {
+                                font-size: 0.88rem;
+                                font-weight: 700;
+                                color: #1e293b;
+                                margin-bottom: 6px;
+                                text-transform: uppercase;
+                                letter-spacing: 0.5px;
+                            }
+                            .vision-pillar-desc {
+                                font-size: 0.8rem;
+                                color: #64748b;
+                                line-height: 1.5;
+                                margin: 0;
+                            }
+                            @media (max-width: 600px) {
+                                .vision-pillars { grid-template-columns: 1fr; }
+                            }
+                        </style>
+
+                        <!-- Top Banner: Main Vision Text -->
+                        <div class="vision-banner">
+                            <div class="vision-banner-header">
+                                <div class="vision-eye-icon"><i class="fas fa-eye"></i></div>
+                                <h3 class="vision-banner-title" data-key="vision_title">Our Vision</h3>
+                            </div>
+                            <div class="vision-banner-divider"></div>
+                            <p class="vision-banner-text" data-key="vision_desc">At DBG Gastro Care, we are committed to delivering advanced, compassionate, and comprehensive gastroenterology and surgical care. Led by Dr. Deepak B, our center is dedicated to providing world-class treatment solutions with a patient-first approach. We strive to ensure every patient receives individualized treatment plans, guided by ethical medical practices and the latest advancements in gastroenterology.</p>
+                        </div>
+
+                        <!-- Visual Pillars: 3 Key Values -->
+                        <div class="vision-pillars">
+                            <div class="vision-pillar">
+                                <div class="vision-pillar-icon">
+                                    <i class="fas fa-user-shield"></i>
+                                </div>
+                                <div class="vision-pillar-label" data-key="patient_first">Patient First</div>
+                                <p class="vision-pillar-desc" data-key="patient_first_desc">Every decision is driven by patient safety, comfort, and well-being above all else.</p>
+                            </div>
+                            <div class="vision-pillar">
+                                <div class="vision-pillar-icon">
+                                    <i class="fas fa-microscope"></i>
+                                </div>
+                                <div class="vision-pillar-label" data-key="adv_tech">Advanced Technology</div>
+                                <p class="vision-pillar-desc" data-key="adv_tech_desc">Combining cutting-edge medical tools with precision for accurate diagnosis & treatment.</p>
+                            </div>
+                            <div class="vision-pillar">
+                                <div class="vision-pillar-icon">
+                                    <i class="fas fa-heart-pulse"></i>
+                                </div>
+                                <div class="vision-pillar-label" data-key="comp_care">Compassionate Care</div>
+                                <p class="vision-pillar-desc" data-key="comp_care_desc">Providing empathetic, personalized care in a comfortable and supportive environment.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3 data-key="footer_clinic_name">DBG Gastro Care</h3>
+                    <p data-key="footer_clinic_desc">Expert Care for a Healthier Gut. Advanced surgical gastroenterology in Mysore.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3 data-key="footer_quick_links">Quick Links</h3>
+                    <div class="footer-links">
+                        <a href="index.html" data-key="nav_home">Home</a>
+                        <a href="about.html" data-key="nav_about">About Us</a>
+                        <a href="services.html" data-key="nav_services">Services</a>
+                        <a href="procedures.html" data-key="nav_procedures">Procedures</a>
+                        <a href="contact.html" data-key="nav_contact">Contact</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3 data-key="footer_visiting_hours">Visiting Hours</h3>
+                    <div class="visiting-hours">
+                        <p><span data-key="footer_mon_sat">Mon - Sat:</span> <span data-key="footer_time">6:00 pm - 9:00 pm</span></p>
+                        <p><span data-key="footer_sun">Sunday:</span> <span data-key="footer_holiday">Holiday</span></p>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3 data-key="footer_contact_info">Contact Info</h3>
+                    <div class="footer-links">
+                        <p><i class="fas fa-map-marker-alt"></i> <span data-key="contact_location">Mysore, Karnataka</span></p>
+                        <p><i class="fas fa-phone"></i> +91 90192 70985</p>
+                        <p><i class="fas fa-envelope"></i> info@dbggastrocare.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-key="footer_copyright">&copy; 2026 DBG Gastro Care. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Procedures | DBG Gastro Care</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Innovative Background Decorations -->
+    <div class="bg-decor">
+        <div class="decor-item decor-1"><i class="fas fa-plus-circle decor-cross"></i></div>
+        <div class="decor-item decor-2"><i class="fas fa-heartbeat"></i></div>
+        <div class="decor-item decor-3"><i class="fas fa-stethoscope decor-circle"></i></div>
+        <div class="decor-item decor-4"><i class="fas fa-dna"></i></div>
+        <div class="decor-item decor-5"><i class="fas fa-briefcase-medical decor-cross"></i></div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container navbar">
+            <a href="index.html" class="logo">
+                <img src="assets/logo.png" alt="DBG Gastro Care Logo">
+            </a>
+            
+            <nav class="nav-links" id="navLinks">
+                <a href="index.html" data-key="nav_home">Home</a>
+                <a href="about.html" data-key="nav_about">About</a>
+                <a href="services.html" data-key="nav_services">Services</a>
+                <a href="procedures.html" class="active" data-key="nav_procedures">Procedures</a>
+                <a href="contact.html" data-key="nav_contact">Contact</a>
+            </nav>
+            
+            <div class="lang-dropdown">
+                <button class="lang-dropbtn">
+                    <i class="fas fa-globe"></i> <span>English</span> <i class="fas fa-chevron-down" style="font-size: 0.7em;"></i>
+                </button>
+                <div class="lang-dropdown-content">
+                    <a href="#" data-lang="en">English</a>
+                    <a href="#" data-lang="kn">Kannada</a>
+                    <a href="#" data-lang="hi">Hindi</a>
+                </div>
+            </div>
+
+            <div class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Procedures</h1>
+            <p data-key="proc_subtitle">Advanced diagnostic and therapeutic procedures performed with precision and care</p>
+        </div>
+    </section>
+
+    <!-- Procedures Grid -->
+    <section class="procedures-section">
+        <div class="container">
+            <div class="procedures-grid">
+
+                <div class="procedure-card reveal reveal-up active">
+                    <div class="procedure-img">
+                        <img src="assets/capsule.png" alt="Capsule Endoscopy">
+                        <div class="procedure-icon-wrap">
+                            <i class="fas fa-capsules"></i>
+                        </div>
+                    </div>
+                    <div class="procedure-content">
+                        <h4 data-key="capsule_title">Capsule Endoscopy</h4>
+                        <p data-key="capsule_desc">A swallowable capsule camera to visualize the small intestine in detail.</p>
+                    </div>
+                </div>
+
+                <div class="procedure-card reveal reveal-up active">
+                    <div class="procedure-img">
+                        <img src="assets/barium.png" alt="Barium Study">
+                        <div class="procedure-icon-wrap">
+                            <i class="fas fa-x-ray"></i>
+                        </div>
+                    </div>
+                    <div class="procedure-content">
+                        <h4 data-key="barium_title">Barium Study</h4>
+                        <p data-key="barium_desc">Imaging technique to examine the digestive tract using barium contrast.</p>
+                    </div>
+                </div>
+
+                <div class="procedure-card reveal reveal-up active">
+                    <div class="procedure-img">
+                        <img src="assets/sigmoidoscopy.png" alt="Sigmoidoscopy">
+                        <div class="procedure-icon-wrap">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="procedure-content">
+                        <h4 data-key="sigmoidoscopy_title">Sigmoidoscopy</h4>
+                        <p data-key="sigmoidoscopy_desc">Examination of the lower large intestine to detect abnormalities.</p>
+                    </div>
+                </div>
+
+                <div class="procedure-card reveal reveal-up active">
+                    <div class="procedure-img">
+                        <img src="assets/ercp.png" alt="ERCP">
+                        <div class="procedure-icon-wrap">
+                            <i class="fas fa-hospital"></i>
+                        </div>
+                    </div>
+                    <div class="procedure-content">
+                        <h4 data-key="ercp_title">ERCP</h4>
+                        <p data-key="ercp_desc">Procedure to diagnose and treat problems in the liver, gallbladder and bile ducts.</p>
+                    </div>
+                </div>
+
+                <div class="procedure-card reveal reveal-up active">
+                    <div class="procedure-img">
+                        <img src="assets/colonoscopy.png" alt="Colonoscopy">
+                        <div class="procedure-icon-wrap">
+                            <i class="fas fa-microscope"></i>
+                        </div>
+                    </div>
+                    <div class="procedure-content">
+                        <h4 data-key="colonoscopy_title">Colonoscopy</h4>
+                        <p data-key="colonoscopy_desc">Visual examination of the entire large intestine and distal small intestine.</p>
+                    </div>
+                </div>
+
+                <div class="procedure-card reveal reveal-up active">
+                    <div class="procedure-img">
+                        <img src="assets/upper_gi.png" alt="Upper GI Endoscopy">
+                        <div class="procedure-icon-wrap">
+                            <i class="fas fa-stethoscope"></i>
+                        </div>
+                    </div>
+                    <div class="procedure-content">
+                        <h4 data-key="uppergi_title">Upper GI Endoscopy</h4>
+                        <p data-key="uppergi_desc">Examination of the esophagus, stomach and the first part of the small intestine.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3 data-key="footer_clinic_name">DBG Gastro Care</h3>
+                    <p data-key="footer_clinic_desc">Expert Care for a Healthier Gut. Advanced surgical gastroenterology in Mysore.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3 data-key="footer_quick_links">Quick Links</h3>
+                    <div class="footer-links">
+                        <a href="index.html" data-key="nav_home">Home</a>
+                        <a href="about.html" data-key="nav_about">About Us</a>
+                        <a href="services.html" data-key="nav_services">Services</a>
+                        <a href="procedures.html" data-key="nav_procedures">Procedures</a>
+                        <a href="contact.html" data-key="nav_contact">Contact</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3 data-key="footer_visiting_hours">Visiting Hours</h3>
+                    <div class="visiting-hours">
+                        <p><span data-key="footer_mon_sat">Mon - Sat:</span> <span data-key="footer_time">6:00 pm - 9:00 pm</span></p>
+                        <p><span data-key="footer_sun">Sunday:</span> <span data-key="footer_holiday">Holiday</span></p>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3 data-key="footer_contact_info">Contact Info</h3>
+                    <div class="footer-links">
+                        <p><i class="fas fa-map-marker-alt"></i> <span data-key="contact_location">Mysore, Karnataka</span></p>
+                        <p><i class="fas fa-phone"></i> +91 90192 70985</p>
+                        <p><i class="fas fa-envelope"></i> info@dbggastrocare.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-key="footer_copyright">&copy; 2026 DBG Gastro Care. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
