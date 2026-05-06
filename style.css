@@ -519,6 +519,7 @@ footer {
     display: flex;
     justify-content: flex-start;
     align-items: baseline;
+    flex-wrap: nowrap;
     margin-bottom: 12px;
     color: #f8f9fa;
     border-bottom: 1px solid rgba(255,255,255,0.1);
@@ -528,16 +529,16 @@ footer {
 .visiting-hours p span:first-child {
     color: var(--white);
     font-weight: 600;
-    width: 95px;
+    width: 90px;
     display: inline-block;
     flex-shrink: 0;
 }
 
 .visiting-hours p span:last-child {
     color: #ffffff;
-    flex: 1;
+    flex-shrink: 0;
     text-align: left;
-    white-space: nowrap;
+    white-space: nowrap !important;
 }
 
 .footer-links p i {
