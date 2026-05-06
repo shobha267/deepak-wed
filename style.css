@@ -459,9 +459,10 @@ footer {
 
 .footer-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     gap: 40px;
     margin-bottom: 40px;
+    align-items: flex-start;
 }
 
 .footer-col h3 {
@@ -995,4 +996,16 @@ header.scrolled {
 .procedure-card p {
     font-size: 0.95rem;
     color: var(--text-light);
+}
+
+@media (max-width: 1200px) {
+    .footer-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
 }
