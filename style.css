@@ -518,21 +518,25 @@ footer {
 .visiting-hours p {
     display: flex;
     justify-content: flex-start;
-    gap: 20px;
+    align-items: baseline;
     margin-bottom: 12px;
     color: #f8f9fa;
-    border-bottom: 1px solid rgba(255,255,255,0.05);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
     padding-bottom: 5px;
 }
 
 .visiting-hours p span:first-child {
     color: var(--white);
     font-weight: 600;
-    min-width: 100px;
+    width: 110px;
+    display: inline-block;
+    flex-shrink: 0;
 }
 
 .visiting-hours p span:last-child {
     color: #ffffff;
+    flex: 1;
+    text-align: left;
 }
 
 .footer-links p i {
