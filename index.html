@@ -3,20 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DBG Gastro Care | Advanced Gastro Care in Mysore</title>
-    <meta name="description" content="Expert gastro care by Dr. Deepak B G, a distinguished surgical gastroenterologist based in Mysore. Over 1000 successful GI oncology surgeries.">
+    <title>DBG Gastro Care | Best Surgical Gastroenterologist in Mysore</title>
+    <meta name="description" content="Experience advanced gastro care by Dr. Deepak B G, the best surgical gastroenterologist in Mysore. Specializing in laparoscopic surgery and GI oncology with over 1000 successful procedures.">
+    <meta name="keywords" content="Best Surgical Gastroenterologist in Mysore, Advanced Gastro Care Mysore, Laparoscopic Gastro Surgeon Mysore, Gastrointestinal Surgeon in Mysore, Dr. Deepak B G Gastroenterologist">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="assets/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
     <!-- Innovative Background Decorations -->
     <div class="bg-decor">
-        <div class="decor-item decor-1"><i class="fas fa-plus-circle decor-cross"></i></div>
-        <div class="decor-item decor-2"><i class="fas fa-heartbeat"></i></div>
-        <div class="decor-item decor-3"><i class="fas fa-stethoscope decor-circle"></i></div>
-        <div class="decor-item decor-4"><i class="fas fa-dna"></i></div>
-        <div class="decor-item decor-5"><i class="fas fa-briefcase-medical decor-cross"></i></div>
+        <div class="decor-item decor-1"></div>
+        <div class="decor-item decor-2"></div>
+        <div class="decor-item decor-3"></div>
+    </div>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-ticker">
+            <span data-key="top_kw_1">Dr. Deepak B G Gastroenterologist</span>
+            <i class="fas fa-circle"></i>
+            <span data-key="top_kw_2">Advanced Gastro Care Mysuru</span>
+            <i class="fas fa-circle"></i>
+            <span data-key="top_kw_3">Laparoscopic Gastro Surgeon Mysuru</span>
+            <i class="fas fa-circle"></i>
+            <span data-key="top_kw_4">Gastrointestinal Surgeon in Mysuru</span>
+        </div>
     </div>
 
     <!-- Header & Navigation -->
@@ -55,8 +68,8 @@
     <section class="hero">
         <div class="container hero-content">
             <div class="hero-text">
-                <h1 data-key="hero_title_1">Expert Care for a <span data-key="hero_title_2">Healthier Gut</span></h1>
-                <p data-key="hero_desc">Advanced Gastro Care by Dr. Deepak B G, a distinguished surgical gastroenterologist based in Mysore.</p>
+                <h1><span data-key="hero_title_1">Best Surgical</span> <span data-key="hero_title_2">Gastroenterologist in Mysore</span></h1>
+                <p data-key="hero_desc">Experience world-class Advanced Gastro Care in Mysore led by Dr. Deepak B G, a highly distinguished surgical gastroenterologist. Specializing in life-saving GI oncology and complex laparoscopic procedures, we combine precision with compassion to provide the most effective treatment for your digestive health.</p>
                 <div class="hero-buttons">
                     <a href="contact.html" class="btn btn-primary" data-key="btn_book_appt">Book Appointment</a>
                     <a href="services.html" class="btn btn-outline" data-key="btn_our_services">Our Services</a>
@@ -76,51 +89,76 @@
                 <p data-key="expertise_subtitle">Comprehensive management of complex gastrointestinal disorders</p>
             </div>
             <div class="highlight-grid">
-                <div class="highlight-card reveal reveal-up hover-lift">
-                    <div class="highlight-icon">
-                        <i class="fas fa-notes-medical"></i>
+                <!-- Gastro Treatment Card -->
+                <div class="exp-card gastro reveal reveal-up">
+                    <div class="bg-gradient"></div>
+                    <div class="content-center">
+                        <i class="fas fa-notes-medical main-icon"></i>
+                        <h3 data-key="gastro_title">Gastro Treatment</h3>
+                        <p data-key="gastro_desc">Expert diagnosis and treatment for all your gastrointestinal problems.</p>
                     </div>
-                    <h3 data-key="gastro_title">Gastro Treatment</h3>
-                    <p data-key="gastro_desc">Expert diagnosis and treatment for all your gastrointestinal problems.</p>
+                    <div class="exp-box exp-box1"><i class="fas fa-heartbeat"></i></div>
+                    <div class="exp-box exp-box2"><i class="fas fa-stethoscope"></i></div>
+                    <div class="exp-box exp-box3"><i class="fas fa-user-md"></i></div>
                 </div>
-                <div class="highlight-card reveal reveal-up hover-lift" style="transition-delay: 0.1s;">
-                    <div class="highlight-icon">
-                        <i class="fas fa-microscope"></i>
+
+                <!-- GI Oncology Card -->
+                <div class="exp-card oncology reveal reveal-up" style="transition-delay: 0.1s;">
+                    <div class="bg-gradient"></div>
+                    <div class="content-center">
+                        <i class="fas fa-microscope main-icon"></i>
+                        <h3 data-key="oncology_title">GI Oncology</h3>
+                        <p data-key="oncology_desc">Over 1000 successful GI oncology surgeries performed with precision.</p>
                     </div>
-                    <h3 data-key="oncology_title">GI Oncology</h3>
-                    <p data-key="oncology_desc">Over 1000 successful GI oncology surgeries performed with precision.</p>
+                    <div class="exp-box exp-box1"><i class="fas fa-dna"></i></div>
+                    <div class="exp-box exp-box2"><i class="fas fa-shield-virus"></i></div>
+                    <div class="exp-box exp-box3"><i class="fas fa-vial"></i></div>
                 </div>
-                <div class="highlight-card reveal reveal-up hover-lift" style="transition-delay: 0.2s;">
-                    <div class="highlight-icon">
-                        <i class="fas fa-procedures"></i>
+
+                <!-- Advanced Laparoscopy Card -->
+                <div class="exp-card laparoscopy reveal reveal-up" style="transition-delay: 0.2s;">
+                    <div class="bg-gradient"></div>
+                    <div class="content-center">
+                        <i class="fas fa-procedures main-icon"></i>
+                        <h3 data-key="laparoscopy_title">Advanced Laparoscopy</h3>
+                        <p data-key="laparoscopy_desc">Recognized as the leading Laparoscopic Gastro Surgeon in Mysore, performing complex minimally invasive procedures.</p>
                     </div>
-                    <h3 data-key="laparoscopy_title">Advanced Laparoscopy</h3>
-                    <p data-key="laparoscopy_desc">More than 500 advanced laparoscopic procedures for faster recovery.</p>
+                    <div class="exp-box exp-box1"><i class="fas fa-video"></i></div>
+                    <div class="exp-box exp-box2"><i class="fas fa-bolt"></i></div>
+                    <div class="exp-box exp-box3"><i class="fas fa-running"></i></div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Doctor Intro -->
+    <!-- My Practice (Doctor Intro) -->
     <section class="doctor-intro">
         <div class="container">
-            <div class="doctor-content">
-                <div class="doctor-img-wrap reveal reveal-left">
-                    <img src="assets/doctor.png" alt="Dr. Deepak B G">
-                </div>
-                <div class="doctor-details reveal reveal-right">
-                    <h2 data-key="doc_name">Dr. Deepak B G</h2>
-                    <p style="color: var(--primary-green); font-weight: bold; margin-bottom: 5px;" data-key="doc_degree">MS from JIPMER, MCh from GB Pant Institute</p>
-                    <p style="font-weight: bold; margin-bottom: 15px;" data-key="doc_specialty">A surgical gastroenterologist</p>
-                    <p data-key="doc_desc_1">Dr. Deepak B, a distinguished surgical gastroenterologist based in Mysore, boasts a decade of valuable experience in the field. His educational background includes an MS in Surgery from the prestigious JIPMER and an MCh in Surgical Gastroenterology from the renowned GB Pant Institute in Delhi.</p>
-                    <ul style="margin-top: 15px; margin-bottom: 20px; list-style-type: none;">
-                        <li><i class="fas fa-check-circle" style="color: var(--primary-green); margin-right: 8px;"></i> <span data-key="doc_bullet_1">Over 1000 successful GI oncology surgeries</span></li>
-                        <li><i class="fas fa-check-circle" style="color: var(--primary-green); margin-right: 8px;"></i> <span data-key="doc_bullet_2">More than 500 advanced laparoscopic procedures</span></li>
-                        <li><i class="fas fa-check-circle" style="color: var(--primary-green); margin-right: 8px;"></i> <span data-key="doc_bullet_3">Numerous intricate hepato-pancreatico-biliary surgeries</span></li>
-                        <li><i class="fas fa-check-circle" style="color: var(--primary-green); margin-right: 8px;"></i> <span data-key="doc_bullet_4">Challenging redo and revision surgeries</span></li>
-                        <li><i class="fas fa-check-circle" style="color: var(--primary-green); margin-right: 8px;"></i> <span data-key="doc_bullet_5">Comprehensive management of complex gastrointestinal disorders</span></li>
-                    </ul>
-                    <a href="about.html" class="btn btn-outline" data-key="btn_read_profile">Read Full Profile</a>
+            <div class="section-header">
+                <h2 data-key="practice_title">My Practice</h2>
+                <p data-key="practice_subtitle">Dedicated excellence in surgical gastroenterology</p>
+            </div>
+            <div class="doctor-card-wrapper reveal reveal-up">
+                <div class="doctor-content">
+                    <div class="doctor-img-wrap">
+                        <img src="assets/doctor.png" alt="Dr. Deepak B G">
+                    </div>
+                    <div class="doctor-details">
+                        <div class="date-box neumorphic-badge">
+                            <span class="month" data-key="exp_label">EXP</span>
+                            <span class="date" data-key="exp_years">10+</span>
+                        </div>
+                        <h2 data-key="doc_name">Dr. Deepak B G</h2>
+                        <span class="degree" data-key="doc_degree">MS from JIPMER, MCh from GB Pant Institute</span>
+                        <span class="specialty" data-key="doc_specialty">Best Gastrointestinal Surgeon in Mysore</span>
+                        <p data-key="doc_desc_1">As a premier Gastrointestinal Surgeon in Mysore, Dr. Deepak B G brings over a decade of specialized expertise in complex GI surgeries. A highly qualified Dr. Deepak B G Gastroenterologist, he is dedicated to delivering superior outcomes through advanced surgical techniques and compassionate patient care.</p>
+                        <ul class="doctor-bullets">
+                            <li><i class="fas fa-check-circle"></i> <span data-key="doc_bullet_1">Over 1000 successful GI oncology surgeries</span></li>
+                            <li><i class="fas fa-check-circle"></i> <span data-key="doc_bullet_2">More than 500 advanced laparoscopic procedures</span></li>
+                            <li><i class="fas fa-check-circle"></i> <span data-key="doc_bullet_3">Numerous intricate hepato-pancreatico-biliary surgeries</span></li>
+                        </ul>
+                        <a href="about.html" class="btn btn-primary" data-key="btn_read_profile">Read Full Profile</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -133,6 +171,12 @@
                 <h2 data-key="proc_title">Our Procedures</h2>
                 <p data-key="proc_subtitle">Advanced diagnostic and therapeutic procedures performed with precision and care</p>
             </div>
+            
+            <!-- Featured Procedure Image -->
+            <div class="procedures-banner reveal reveal-up">
+                <img src="assets/procedures-main.png" alt="Advanced Medical Procedures">
+            </div>
+
             <div class="procedures-grid">
 
                 <div class="procedure-card reveal reveal-up hover-lift" onclick="window.location.href='procedures.html'" style="cursor: pointer;">
@@ -225,9 +269,10 @@
                     <h3 data-key="footer_clinic_name">DBG Gastro Care</h3>
                     <p data-key="footer_clinic_desc">Expert Care for a Healthier Gut. Advanced surgical gastroenterology in Mysore.</p>
                     <div class="social-links">
-                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon youtube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-icon twitter"><i class="fab fa-x-twitter"></i></a>
                     </div>
                 </div>
                 <div class="footer-col">

@@ -1,5 +1,11 @@
 const translations = {
     en: {
+        // Top Bar Keywords
+        top_kw_1: "Dr. Deepak B G Gastroenterologist",
+        top_kw_2: "Advanced Gastro Care Mysuru",
+        top_kw_3: "Laparoscopic Gastro Surgeon Mysuru",
+        top_kw_4: "Gastrointestinal Surgeon in Mysuru",
+
         // Navigation
         nav_home: "Home",
         nav_about: "About",
@@ -8,9 +14,9 @@ const translations = {
         nav_contact: "Contact",
 
         // Hero Section
-        hero_title_1: "Expert Care for a",
-        hero_title_2: "Healthier Gut",
-        hero_desc: "Advanced Gastro Care by Dr. Deepak B G, a distinguished surgical gastroenterologist based in Mysore.",
+        hero_title_1: "Best Surgical",
+        hero_title_2: "Gastroenterologist in Mysore",
+        hero_desc: "Experience world-class Advanced Gastro Care in Mysore led by Dr. Deepak B G, a highly distinguished surgical gastroenterologist. Specializing in life-saving GI oncology and complex laparoscopic procedures, we combine precision with compassion to provide the most effective treatment for your digestive health.",
         btn_book_appt: "Book Appointment",
         btn_our_services: "Our Services",
 
@@ -22,13 +28,13 @@ const translations = {
         oncology_title: "GI Oncology",
         oncology_desc: "Over 1000 successful GI oncology surgeries performed with precision.",
         laparoscopy_title: "Advanced Laparoscopy",
-        laparoscopy_desc: "More than 500 advanced laparoscopic procedures for faster recovery.",
+        laparoscopy_desc: "Recognized as the leading Laparoscopic Gastro Surgeon in Mysore, performing complex minimally invasive procedures.",
 
         // Doctor Section
         doc_name: "Dr. Deepak B G",
         doc_degree: "MS from JIPMER, MCh from GB Pant Institute",
-        doc_specialty: "A surgical gastroenterologist",
-        doc_desc_1: "Dr. Deepak B, a distinguished surgical gastroenterologist based in Mysore, boasts a decade of valuable experience in the field. His educational background includes an MS in Surgery from the prestigious JIPMER and an MCh in Surgical Gastroenterology from the renowned GB Pant Institute in Delhi.",
+        doc_specialty: "Best Gastrointestinal Surgeon in Mysore",
+        doc_desc_1: "As a premier Gastrointestinal Surgeon in Mysore, Dr. Deepak B G brings over a decade of specialized expertise in complex GI surgeries. A highly qualified Dr. Deepak B G Gastroenterologist, he is dedicated to delivering superior outcomes through advanced surgical techniques and compassionate patient care.",
         doc_desc_2: "He is specialized in complex gastrointestinal surgeries and has a proven track record of successful outcomes in oncology and laparoscopic procedures.",
         doc_bullet_1: "Over 1000 successful GI oncology surgeries",
         doc_bullet_2: "More than 500 advanced laparoscopic procedures",
@@ -108,6 +114,12 @@ const translations = {
         footer_copyright: "© 2026 DBG Gastro Care. All Rights Reserved."
     },
     kn: {
+        // Top Bar Keywords
+        top_kw_1: "ಡಾ. ದೀಪಕ್ ಬಿ ಜಿ ಗ್ಯಾಸ್ಟ್ರೋಎಂಟರಾಲಜಿಸ್ಟ್",
+        top_kw_2: "ಸುಧಾರಿತ ಗ್ಯಾಸ್ಟ್ರೋ ಕೇರ್ ಮೈಸೂರು",
+        top_kw_3: "ಲ್ಯಾಪರೊಸ್ಕೋಪಿಕ್ ಗ್ಯಾಸ್ಟ್ರೋ ಸರ್ಜನ್ ಮೈಸೂರು",
+        top_kw_4: "ಮೈಸೂರಿನಲ್ಲಿ ಗ್ಯಾಸ್ಟ್ರೋಇಂಟೆಸ್ಟೈನಲ್ ಸರ್ಜನ್",
+
         nav_home: "ಮನೆ",
         nav_about: "ಬಗ್ಗೆ",
         nav_services: "ಸೇವೆಗಳು",
@@ -207,6 +219,12 @@ const translations = {
         footer_copyright: "© 2026 DBG ಗ್ಯಾಸ್ಟ್ರೋ ಕೇರ್. ಎಲ್ಲ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ."
     },
     hi: {
+        // Top Bar Keywords
+        top_kw_1: "डॉ. दीपक बी जी गैस्ट्रोएंटेरोलॉजिस्ट",
+        top_kw_2: "उन्नत गैस्ट्रो केयर मैसूर",
+        top_kw_3: "लैप्रोस्कोपिक गैस्ट्रो सर्जन मैसूर",
+        top_kw_4: "मैसूर में गैस्ट्रोइंटेस्टाइनल सर्जन",
+
         nav_home: "होम",
         nav_about: "के बारे में",
         nav_services: "सेवाएं",
