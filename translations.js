@@ -58,6 +58,9 @@ const translations = {
         // Procedures Section
         proc_title: "Our Procedures",
         proc_subtitle: "Advanced diagnostic and therapeutic procedures performed with precision and care",
+        tab_all: "All",
+        tab_diag: "Diagnostic",
+        tab_inter: "Interventional",
         capsule_title: "Capsule Endoscopy",
         capsule_desc: "A swallowable capsule camera to visualize the small intestine in detail.",
         barium_title: "Barium Study",
@@ -166,6 +169,9 @@ const translations = {
 
         proc_title: "ನಮ್ಮ ವಿಧಾನಗಳು",
         proc_subtitle: "ನಿಖರತೆ ಮತ್ತು ಕಾಳಜಿಯೊಂದಿಗೆ ಸುಧಾರಿತ ರೋಗನಿರ್ಣಯ ಮತ್ತು ಚಿಕಿತ್ಸಕ ವಿಧಾನಗಳು",
+        tab_all: "ಎಲ್ಲವೂ",
+        tab_diag: "ರೋಗನಿರ್ಣಯ",
+        tab_inter: "ಚಿಕಿತ್ಸಕ",
         capsule_title: "ಕ್ಯಾಪ್ಸುಲ್ ಎಂಡೋಸ್ಕೋಪಿ",
         capsule_desc: "ಸಣ್ಣ ಕರುಳನ್ನು ವಿವರವಾಗಿ ದೃಶ್ಯೀಕರಿಸಲು ನುಂಗಬಹುದಾದ ಕ್ಯಾಪ್ಸುಲ್ ಕ್ಯಾಮೆರಾ.",
         barium_title: "ಬೇರಿಯಮ್ ಅಧ್ಯಯನ",
@@ -271,6 +277,9 @@ const translations = {
 
         proc_title: "हमारी प्रक्रियाएं",
         proc_subtitle: "सटीकता और देखभाल के साथ उन्नत नैदानिक और उपचारात्मक प्रक्रियाएं",
+        tab_all: "सभी",
+        tab_diag: "नैदानिक",
+        tab_inter: "उपचारात्मक",
         capsule_title: "कैप्सूल एंडोस्कोपी",
         capsule_desc: "छोटी आंत को विस्तार से देखने के लिए एक निगलने योग्य कैप्सूल कैमरा।",
         barium_title: "बेरियम अध्ययन",

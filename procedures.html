@@ -73,9 +73,16 @@
     <!-- Procedures Grid -->
     <section class="procedures-section">
         <div class="container">
+            <!-- Procedures Tabs -->
+            <div class="procedures-tabs reveal reveal-up">
+                <button class="tab-btn active" data-filter="all" data-key="tab_all">All</button>
+                <button class="tab-btn" data-filter="diag" data-key="tab_diag">Diagnostic</button>
+                <button class="tab-btn" data-filter="inter" data-key="tab_inter">Interventional</button>
+            </div>
+
             <div class="procedures-grid">
 
-                <div class="procedure-card reveal reveal-up active">
+                <div class="procedure-card reveal reveal-up active" data-category="diag">
                     <div class="procedure-img">
                         <img src="assets/capsule.png" alt="Capsule Endoscopy">
                         <div class="procedure-icon-wrap">
@@ -88,7 +95,7 @@
                     </div>
                 </div>
 
-                <div class="procedure-card reveal reveal-up active">
+                <div class="procedure-card reveal reveal-up active" data-category="diag">
                     <div class="procedure-img">
                         <img src="assets/barium.png" alt="Barium Study">
                         <div class="procedure-icon-wrap">
@@ -101,7 +108,7 @@
                     </div>
                 </div>
 
-                <div class="procedure-card reveal reveal-up active">
+                <div class="procedure-card reveal reveal-up active" data-category="diag">
                     <div class="procedure-img">
                         <img src="assets/sigmoidoscopy.png" alt="Sigmoidoscopy">
                         <div class="procedure-icon-wrap">
@@ -114,7 +121,7 @@
                     </div>
                 </div>
 
-                <div class="procedure-card reveal reveal-up active">
+                <div class="procedure-card reveal reveal-up active" data-category="inter">
                     <div class="procedure-img">
                         <img src="assets/ercp.png" alt="ERCP">
                         <div class="procedure-icon-wrap">
@@ -127,7 +134,7 @@
                     </div>
                 </div>
 
-                <div class="procedure-card reveal reveal-up active">
+                <div class="procedure-card reveal reveal-up active" data-category="inter">
                     <div class="procedure-img">
                         <img src="assets/colonoscopy.png" alt="Colonoscopy">
                         <div class="procedure-icon-wrap">
@@ -140,7 +147,7 @@
                     </div>
                 </div>
 
-                <div class="procedure-card reveal reveal-up active">
+                <div class="procedure-card reveal reveal-up active" data-category="inter">
                     <div class="procedure-img">
                         <img src="assets/upper_gi.png" alt="Upper GI Endoscopy">
                         <div class="procedure-icon-wrap">

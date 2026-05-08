@@ -124,4 +124,34 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
+    // Procedures Tab Filtering
+    const tabBtns = document.querySelectorAll('.tab-btn');
+    const procedureCards = document.querySelectorAll('.procedure-card');
+
+    if (tabBtns.length > 0) {
+        tabBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                tabBtns.forEach(b => b.classList.remove('active'));
+                // Add active class to clicked button
+                btn.classList.add('active');
+
+                const filter = btn.getAttribute('data-filter');
+
+                procedureCards.forEach(card => {
+                    const category = card.getAttribute('data-category');
+                    
+                    if (filter === 'all' || filter === category) {
+                        card.classList.remove('hide');
+                        card.classList.add('show');
+                        card.classList.add('active'); 
+                    } else {
+                        card.classList.remove('show');
+                        card.classList.add('hide');
+                    }
+                });
+            });
+        });
+    }
 });
