@@ -803,6 +803,12 @@ footer::before {
 
 /* Responsive Layouts */
 @media (max-width: 1024px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    
     .footer-content {
         grid-template-columns: repeat(2, 1fr);
         gap: 40px;
@@ -1018,32 +1024,74 @@ footer::before {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 32px;
+    align-items: stretch;
 }
 
 .contact-info, .contact-form, .map-card {
-    background: var(--bg-card);
-    padding: 40px;
+    background: var(--white);
+    padding: 50px 40px;
     border-radius: var(--radius-lg);
-    box-shadow: var(--shadow-md);
+    box-shadow: var(--shadow-lg);
     border: 1px solid var(--border);
+    position: relative;
+    overflow: hidden;
+    transition: var(--transition);
 }
+
+.contact-info::before, .contact-form::before, .map-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+}
+
+.contact-info::before { background: var(--primary); }
+.contact-form::before { background: var(--secondary); }
+.map-card::before { background: var(--accent); }
+
+.contact-info:hover, .contact-form:hover, .map-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 30px 60px -12px rgba(50,50,93,0.15), 0 18px 36px -18px rgba(0,0,0,0.2);
+}
+
+.contact-info h3, .contact-form h3, .map-card h3 {
+    margin-bottom: 24px;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.contact-info h3 { color: var(--primary); }
+.contact-form h3 { color: var(--secondary); }
+.map-card h3 { color: var(--accent); }
 
 .info-item {
     display: flex;
     gap: 20px;
-    margin-bottom: 32px;
+    margin-bottom: 35px;
+    align-items: flex-start;
 }
 
 .info-icon {
-    font-size: 1.5rem;
-    color: var(--secondary);
-    background: rgba(103, 160, 38, 0.1);
-    width: 48px;
-    height: 48px;
+    font-size: 1.4rem;
+    color: var(--primary);
+    background: var(--primary-soft);
+    width: 54px;
+    height: 54px;
+    min-width: 54px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: var(--radius-md);
+    border-radius: 16px;
+    border: 1px solid rgba(0, 84, 154, 0.1);
+    transition: var(--transition);
+}
+
+.info-item:hover .info-icon {
+    background: var(--primary);
+    color: var(--white);
+    transform: scale(1.1) rotate(10deg);
 }
 
 .form-group {
