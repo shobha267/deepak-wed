@@ -802,10 +802,21 @@ footer::before {
 }
 
 /* Responsive Layouts */
+@media (max-width: 1200px) {
+    .contact-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+    }
+    
+    .contact-info, .contact-form, .map-card {
+        padding: 40px 30px;
+    }
+}
+
 @media (max-width: 1024px) {
     .contact-container {
         grid-template-columns: 1fr;
-        max-width: 600px;
+        max-width: 650px;
         margin: 0 auto;
     }
     
