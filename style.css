@@ -451,7 +451,7 @@ header.scrolled .logo img {
     cursor: pointer;
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 8px;
     transition: var(--transition);
 }
 
@@ -2722,7 +2722,31 @@ footer {
 .footer-links {
     display: flex;
     flex-direction: column;
+    gap: 16px;
+}
+
+.footer-links a {
+    color: var(--text-muted);
+    transition: var(--transition);
+    display: inline-flex;
+    align-items: center;
     gap: 10px;
+    font-weight: 500;
+}
+
+.footer-links a i {
+    font-size: 0.8rem;
+    color: var(--primary);
+    transition: var(--transition);
+}
+
+.footer-links a:hover {
+    color: var(--primary);
+    transform: translateX(8px);
+}
+
+.footer-links a:hover i {
+    transform: scale(1.2);
 }
 
 .footer-links a {
