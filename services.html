@@ -3,49 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services | DBG Gastro Care</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Services | DBG Gastro Care | Gastroenterology & Surgery Mysore</title>
+    <meta name="description" content="Comprehensive digestive health and surgical gastroenterology services by Dr. Deepak B G in Mysore. Specialized evaluation for GERD, IBS, liver, and surgical oncology.">
+    <meta name="keywords" content="Gastroenterology Services Mysore, GI Oncology Mysore, Laparoscopic Surgery Mysore, GERD Treatment Mysore, IBS Clinic Mysore, Liver Care Mysore">
+    <link rel="stylesheet" href="style.css?v=4.4">
+    <link rel="icon" type="image/png" href="assets/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-    <!-- Innovative Background Decorations -->
-    <div class="bg-decor">
-        <div class="decor-item decor-1"><i class="fas fa-plus-circle decor-cross"></i></div>
-        <div class="decor-item decor-2"><i class="fas fa-heartbeat"></i></div>
-        <div class="decor-item decor-3"><i class="fas fa-stethoscope decor-circle"></i></div>
-        <div class="decor-item decor-4"><i class="fas fa-dna"></i></div>
-        <div class="decor-item decor-5"><i class="fas fa-briefcase-medical decor-cross"></i></div>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-ticker">
+            <span data-key="top_kw_1"><i class="fas fa-user-md"></i> Dr. Deepak B G Gastroenterologist</span>
+            <i class="fas fa-circle"></i>
+            <span data-key="top_kw_2">Advanced Gastro Care Mysuru</span>
+            <i class="fas fa-circle"></i>
+            <span data-key="top_kw_3">Laparoscopic Gastro Surgeon Mysuru</span>
+            <i class="fas fa-circle"></i>
+            <span data-key="top_kw_4">Gastrointestinal Surgeon in Mysuru</span>
+        </div>
     </div>
 
-    <!-- Header & Navigation -->
-    <header>
+    <!-- Header & Navigation (Fixed / Sticky with Stable Logo) -->
+        <!-- Locked Global Sticky Header (Identical Before & After Scroll) -->
+    <header id="siteHeader">
         <div class="container navbar">
-            <a href="index.html" class="logo">
-                <img src="assets/logo.png" alt="DBG Gastro Care Logo">
+            <a href="index.html" class="logo" aria-label="DBG Gastro Care Home">
+                <img src="assets/logo.png?v=4.4" alt="DBG Gastro Care Logo" width="135" height="52">
             </a>
             
             <nav class="nav-links" id="navLinks">
-                <a href="index.html" data-key="nav_home">Home</a>
-                <a href="about.html" data-key="nav_about">About</a>
-                <a href="services.html" class="active" data-key="nav_services">Services</a>
-                <a href="procedures.html" data-key="nav_procedures">Procedures</a>
-                <a href="contact.html" data-key="nav_contact">Contact</a>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html" class="active">Services</a>
+                <a href="procedures.html">Procedures</a>
+                <a href="index.html#insights">Health Insights</a>
+                <a href="index.html#appointment">Appointment</a>
+                <a href="contact.html">Contact</a>
             </nav>
             
-            <div class="lang-dropdown">
-                <button class="lang-dropbtn">
-                    <i class="fas fa-globe"></i> <span>English</span> <i class="fas fa-chevron-down" style="font-size: 0.7em;"></i>
-                </button>
-                <div class="lang-dropdown-content">
-                    <a href="#" data-lang="en">English</a>
-                    <a href="#" data-lang="kn">Kannada</a>
-                    <a href="#" data-lang="hi">Hindi</a>
+            <div class="header-actions">
+                <div class="header-call">
+                    <span class="call-sub">CALL ANYTIME</span>
+                    <a href="tel:+919019270985" class="call-tel">+91 – 90192 70985</a>
                 </div>
-            </div>
 
-            <div class="mobile-menu-btn" id="mobileMenuBtn">
-                <i class="fas fa-bars"></i>
+                <a href="index.html#appointment" class="btn-header-appt">
+                    <i class="fas fa-calendar-check"></i> Appointment
+                </a>
+
+                <div class="lang-static-badge" aria-label="Language: English">
+                    <i class="fas fa-globe"></i> <span>English</span>
+                </div>
+
+                <div class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Navigation Menu">
+                    <i class="fas fa-bars"></i>
+                </div>
             </div>
         </div>
     </header>
@@ -54,104 +68,412 @@
     <section class="page-header">
         <div class="container">
             <h1 data-key="services_header_title">Our Services</h1>
-            <p data-key="expertise_subtitle">Comprehensive management of complex gastrointestinal disorders</p>
+            <p data-key="services_header_desc">Comprehensive gastroenterology and surgical services tailored to your digestive wellness.</p>
         </div>
     </section>
 
-    <!-- Services Grid -->
-    <section class="services-section">
+    <!-- Digestive Health Services -->
+    <section class="procedures-section" style="background: var(--white);">
         <div class="container">
-            <div class="services-grid">
-                
-                <div class="service-card reveal reveal-up active">
-                    <div class="service-img">
-                        <img src="assets/hero.png" alt="Gastro Treatment" style="width: 100%; height: 100%; object-fit: cover;">
-                        <div class="service-icon-wrap">
-                            <i class="fas fa-notes-medical"></i>
-                        </div>
+            <div class="section-header">
+                <h2>Digestive Health Services</h2>
+                <p>Comprehensive specialist evaluation and evidence-based care for gastrointestinal conditions</p>
+            </div>
+
+            <div class="procedures-grid">
+                <div class="procedure-item-card reveal reveal-up">
+                    <div class="proc-card-header">
+                        <div class="proc-icon-box"><i class="fas fa-stethoscope"></i></div>
+                        <h3>Gastroenterology Consultation</h3>
                     </div>
-                    <div class="service-content">
-                        <h3 data-key="gastro_title">Gastro Treatment</h3>
-                        <p>Expert diagnosis and treatment for all your gastrointestinal problems, from common ailments to chronic conditions.</p>
-                    </div>
+                    <p>Specialist clinical evaluation for acute and chronic digestive symptoms, establishing accurate diagnoses.</p>
                 </div>
 
-                <div class="service-card reveal reveal-up active">
-                    <div class="service-img">
-                        <img src="assets/laparoscopy.png" alt="GI Oncology" style="width: 100%; height: 100%; object-fit: cover;">
-                        <div class="service-icon-wrap">
-                            <i class="fas fa-microscope"></i>
-                        </div>
+                <div class="procedure-item-card reveal reveal-up" style="transition-delay: 0.1s;">
+                    <div class="proc-card-header">
+                        <div class="proc-icon-box"><i class="fas fa-fire-flame-simple"></i></div>
+                        <h3>Acid Reflux and GERD</h3>
                     </div>
-                    <div class="service-content">
-                        <h3 data-key="oncology_title">GI Oncology</h3>
-                        <p>Specialized surgical oncology for cancers of the esophagus, stomach, colon, and other GI organs.</p>
-                    </div>
+                    <p>Targeted evaluation and treatment protocols for persistent heartburn, regurgitation, and reflux discomfort.</p>
                 </div>
 
-                <div class="service-card reveal reveal-up active">
-                    <div class="service-img">
-                        <img src="assets/revision.png" alt="Advanced Laparoscopy" style="width: 100%; height: 100%; object-fit: cover;">
-                        <div class="service-icon-wrap">
-                            <i class="fas fa-procedures"></i>
-                        </div>
+                <div class="procedure-item-card reveal reveal-up" style="transition-delay: 0.2s;">
+                    <div class="proc-card-header">
+                        <div class="proc-icon-box"><i class="fas fa-shield-halved"></i></div>
+                        <h3>Gastritis and Indigestion</h3>
                     </div>
-                    <div class="service-content">
-                        <h3 data-key="laparoscopy_title">Advanced Laparoscopy</h3>
-                        <p>Minimally invasive procedures ensuring faster recovery, less pain, and minimal scarring.</p>
-                    </div>
+                    <p>Comprehensive care for stomach inflammation, dyspepsia, early fullness, and upper abdominal burning.</p>
                 </div>
 
+                <div class="procedure-item-card reveal reveal-up">
+                    <div class="proc-card-header">
+                        <div class="proc-icon-box"><i class="fas fa-arrows-spin"></i></div>
+                        <h3>Irritable Bowel Syndrome (IBS)</h3>
+                    </div>
+                    <p>Personalized management strategies for abdominal cramping, bloating, and fluctuating bowel habits.</p>
+                </div>
+
+                <div class="procedure-item-card reveal reveal-up" style="transition-delay: 0.1s;">
+                    <div class="proc-card-header">
+                        <div class="proc-icon-box"><i class="fas fa-dna"></i></div>
+                        <h3>Constipation & Bowel Health</h3>
+                    </div>
+                    <p>Diagnostic assessment for chronic constipation, motility concerns, and long-term bowel regularity.</p>
+                </div>
+
+                <div class="procedure-item-card reveal reveal-up" style="transition-delay: 0.2s;">
+                    <div class="proc-card-header">
+                        <div class="proc-icon-box"><i class="fas fa-vial-virus"></i></div>
+                        <h3>Liver & Digestive Health Evaluation</h3>
+                    </div>
+                    <p>Thorough screening for fatty liver, altered liver function tests, and biliary system disorders.</p>
+                </div>
+
+                <div class="procedure-item-card reveal reveal-up">
+                    <div class="proc-card-header">
+                        <div class="proc-icon-box"><i class="fas fa-magnifying-glass-chart"></i></div>
+                        <h3>Abdominal Pain Assessment</h3>
+                    </div>
+                    <p>Systematic clinical diagnostic workup to identify the precise origin of recurring abdominal discomfort.</p>
+                </div>
+
+                <div class="procedure-item-card reveal reveal-up" style="transition-delay: 0.1s;">
+                    <div class="proc-card-header">
+                        <div class="proc-icon-box"><i class="fas fa-heart-pulse"></i></div>
+                        <h3>Preventive Digestive Health Guidance</h3>
+                    </div>
+                    <p>Doctor-led guidance on gut-friendly nutrition, lifestyle modifications, and proactive GI screening.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Surgical Gastroenterology Excellence Section -->
+    <section class="why-choose-section" style="background: linear-gradient(180deg, #F8FBFC 0%, #FFFFFF 100%);">
+        <div class="container">
+            <div class="section-header">
+                <h2>Advanced Surgical Gastroenterology</h2>
+                <p>Specialized surgical care by Dr. Deepak B G with verified expertise in complex oncology and minimally invasive surgeries</p>
+            </div>
+
+            <div class="why-grid">
+                <div class="why-card reveal reveal-up">
+                    <div class="why-icon"><i class="fas fa-microscope"></i></div>
+                    <h3 data-key="oncology_title">GI Oncology</h3>
+                    <p data-key="oncology_desc">Over 1000 successful GI oncology surgeries performed with precision for stomach, colorectal, and esophageal cancers.</p>
+                </div>
+
+                <div class="why-card reveal reveal-up" style="transition-delay: 0.1s;">
+                    <div class="why-icon"><i class="fas fa-procedures"></i></div>
+                    <h3 data-key="laparoscopy_title">Advanced Laparoscopy</h3>
+                    <p data-key="laparoscopy_desc">Recognized as the leading Laparoscopic Gastro Surgeon in Mysore, performing complex minimally invasive procedures with faster recovery.</p>
+                </div>
+
+                <div class="why-card reveal reveal-up" style="transition-delay: 0.2s;">
+                    <div class="why-icon"><i class="fas fa-hospital-user"></i></div>
+                    <h3>HPB Surgery</h3>
+                    <p>Intricate hepato-pancreatico-biliary surgeries for complex liver, bile duct, gallbladder, and pancreatic conditions.</p>
+                </div>
+
+                <div class="why-card reveal reveal-up" style="transition-delay: 0.3s;">
+                    <div class="why-icon"><i class="fas fa-rotate"></i></div>
+                    <h3>Redo & Revision Surgeries</h3>
+                    <p>Expert management and precision surgical techniques for challenging redo and post-operative gastrointestinal revisions.</p>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="index.html#appointment" class="btn btn-primary" data-key="btn_book_appt">
+                    <i class="fas fa-calendar-check"></i> Book Consultation
+                </a>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
+        <!-- Premium Footer -->
     <footer>
         <div class="container">
             <div class="footer-content">
                 <div class="footer-col">
-                    <h3 data-key="footer_clinic_name">DBG Gastro Care</h3>
-                    <p data-key="footer_clinic_desc">Expert Care for a Healthier Gut. Advanced surgical gastroenterology in Mysore.</p>
-                    <div class="social-links">
-                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
-                    </div>
+                    <a href="index.html" class="footer-logo">
+                        <img src="assets/logo.png?v=4.4" alt="DBG Gastro Care">
+                    </a>
+                    <p>
+                        Specialist surgical gastroenterology, advanced laparoscopy, and comprehensive digestive healthcare led by Dr. Deepak B G in Mysuru. Dedicated to patient-first precision and gut wellness.
+                    </p>
                 </div>
+
                 <div class="footer-col">
-                    <h3 data-key="footer_quick_links">Quick Links</h3>
+                    <h3>Quick Navigation</h3>
                     <div class="footer-links">
-                        <a href="index.html" data-key="nav_home">Home</a>
-                        <a href="about.html" data-key="nav_about">About Us</a>
-                        <a href="services.html" data-key="nav_services">Services</a>
-                        <a href="procedures.html" data-key="nav_procedures">Procedures</a>
-                        <a href="contact.html" data-key="nav_contact">Contact</a>
+                        <a href="index.html"><i class="fas fa-chevron-right"></i> Home</a>
+                        <a href="about.html"><i class="fas fa-chevron-right"></i> About Dr. Deepak</a>
+                        <a href="services.html"><i class="fas fa-chevron-right"></i> Services</a>
+                        <a href="procedures.html"><i class="fas fa-chevron-right"></i> Procedures</a>
+                        <a href="index.html#insights"><i class="fas fa-chevron-right"></i> Health Insights</a>
+                        <a href="index.html#appointment"><i class="fas fa-chevron-right"></i> Book Appointment</a>
+                        <a href="contact.html"><i class="fas fa-chevron-right"></i> Contact Us</a>
                     </div>
                 </div>
+
                 <div class="footer-col">
-                    <h3 data-key="footer_contact_info">Contact Info</h3>
+                    <h3>Specialist Areas</h3>
                     <div class="footer-links">
-                        <p><i class="fas fa-map-marker-alt"></i> <span data-key="contact_location">C&D block, 1533, Anikethana Rd, Kuvempunagara North, Mysuru</span></p>
-                        <p><i class="fas fa-phone"></i> +91 90192 70985</p>
-                        <p><i class="fas fa-envelope"></i> info@dbggastrocare.com</p>
+                        <a href="services.html"><i class="fas fa-chevron-right"></i> Acid Reflux (GERD)</a>
+                        <a href="services.html"><i class="fas fa-chevron-right"></i> Gastritis &amp; Indigestion</a>
+                        <a href="services.html"><i class="fas fa-chevron-right"></i> IBS &amp; Bowel Health</a>
+                        <a href="services.html"><i class="fas fa-chevron-right"></i> Fatty Liver Screening</a>
+                        <a href="procedures.html"><i class="fas fa-chevron-right"></i> Upper GI Endoscopy</a>
+                        <a href="procedures.html"><i class="fas fa-chevron-right"></i> Colonoscopy</a>
                     </div>
                 </div>
-                <div class="footer-col">
-                    <h3 data-key="footer_visiting_hours">Visiting Hours</h3>
-                    <div class="visiting-hours">
-                        <p><span data-key="footer_mon_sat">Mon - Sat:</span> <span data-key="footer_time">6:00 PM – 9:00 PM</span></p>
-                        <p><span data-key="footer_sun">Sunday:</span> <span data-key="footer_holiday">Holiday</span></p>
-                    </div>
+
+                <div class="footer-col footer-hours">
+                    <h3>Clinic Location &amp; Hours</h3>
+                    <p><i class="fas fa-map-marker-alt" style="color: var(--soft-orange);"></i> C&amp;D Block, 1533, Anikethana Rd, Kuvempunagara North, Mysuru</p>
+                    <p><i class="fas fa-phone-alt" style="color: var(--soft-orange);"></i> <a href="tel:+919019270985" style="color: inherit;">+91 – 90192 70985</a></p>
+                    <p style="margin-top: 10px;"><strong>Visiting Hours:</strong></p>
+                    <p>Mon – Sat: <strong>6:00 PM – 9:00 PM</strong></p>
+                    <p>Sunday: <strong style="color: #F87171;">Holiday</strong></p>
                 </div>
             </div>
+
             <div class="footer-bottom">
-                <p data-key="footer_copyright">&copy; 2026 DBG Gastro Care. All Rights Reserved.</p>
+                <p>&copy; 2026 DBG Gastro Care. All Rights Reserved. Client-approved asset identity preserved. Designed for compassionate patient care.</p>
             </div>
         </div>
     </footer>
 
-    <script src="translations.js"></script>
-    <script src="script.js"></script>
+    <script src="translations.js?v=4.4"></script>
+    <script src="script.js?v=4.4"></script>
+<!-- =========================================================================
+         SMART APPOINTMENT BOOKING MODAL (Step-by-Step Flow)
+         ========================================================================= -->
+    <!-- 13. Smart Appointment Booking Modal (4-Step Flow) -->
+    <div id="appointmentModal" class="appt-modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" style="display: none;">
+        <div class="appt-modal-overlay" id="modalBackdrop"></div>
+        <div class="appt-modal-container">
+            <div class="appt-modal-card">
+                <!-- Modal Header -->
+                <div class="appt-modal-header">
+                    <div>
+                        <span class="modal-badge"><i class="fas fa-calendar-check"></i> DBG Gastro Care</span>
+                        <h3 id="modalTitle">Smart Appointment Booking</h3>
+                    </div>
+                    <button type="button" class="modal-close-btn" id="closeModalBtn" aria-label="Close modal">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+
+                <!-- Stepper Progress Bar -->
+                <div class="modal-stepper">
+                    <div class="step-indicator active" data-step="1">
+                        <div class="step-num">1</div>
+                        <span class="step-text">Patient</span>
+                    </div>
+                    <div class="step-line"></div>
+                    <div class="step-indicator" data-step="2">
+                        <div class="step-num">2</div>
+                        <span class="step-text">Consultation</span>
+                    </div>
+                    <div class="step-line"></div>
+                    <div class="step-indicator" data-step="3">
+                        <div class="step-num">3</div>
+                        <span class="step-text">Schedule</span>
+                    </div>
+                    <div class="step-line"></div>
+                    <div class="step-indicator" data-step="4">
+                        <div class="step-num">4</div>
+                        <span class="step-text">Confirm</span>
+                    </div>
+                </div>
+
+                <!-- Modal Body Form -->
+                <form id="smartBookingForm" novalidate>
+                    <!-- STEP 1: Patient Information -->
+                    <div class="modal-step-panel active" id="stepPanel1">
+                        <h4 class="step-heading"><i class="fas fa-user-circle"></i> Patient Details</h4>
+                        <p class="step-subtext">Please provide your details for clinic registration and consultation records.</p>
+
+                        <div class="form-grid-modal">
+                            <div class="modal-field">
+                                <label for="patientName"><i class="fas fa-user"></i> Full Name <span class="req">*</span></label>
+                                <input type="text" id="patientName" class="modal-input" placeholder="e.g. Ramesh Kumar" required>
+                                <span class="field-error" id="nameError">Please enter the patient's full name.</span>
+                            </div>
+
+                            <div class="modal-field">
+                                <label for="patientPhone"><i class="fas fa-phone"></i> Mobile Number <span class="req">*</span></label>
+                                <input type="tel" id="patientPhone" class="modal-input" placeholder="e.g. 9876543210" required>
+                                <span class="field-error" id="phoneError">Please enter a valid 10-digit mobile number.</span>
+                            </div>
+
+                            <div class="modal-field">
+                                <label for="patientEmail"><i class="fas fa-envelope"></i> Email Address <span class="opt">(Optional)</span></label>
+                                <input type="email" id="patientEmail" class="modal-input" placeholder="e.g. name@example.com">
+                                <span class="field-error" id="emailError">Please enter a valid email address.</span>
+                            </div>
+
+                            <div class="modal-field">
+                                <label for="patientType"><i class="fas fa-user-tag"></i> Patient Status <span class="req">*</span></label>
+                                <select id="patientType" class="modal-select" required>
+                                    <option value="new">New Patient (First Visit)</option>
+                                    <option value="returning">Returning / Follow-up Patient</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="modal-actions right-only">
+                            <button type="button" class="btn btn-primary btn-step-next" id="goToStep2">
+                                Continue to Consultation <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- STEP 2: Consultation & Facility -->
+                    <div class="modal-step-panel" id="stepPanel2">
+                        <h4 class="step-heading"><i class="fas fa-stethoscope"></i> Select Consultation Facility</h4>
+                        <p class="step-subtext">Choose your specialized digestive care area or clinical consultation type.</p>
+
+                        <div class="selected-service-pill" id="selectedServiceBanner">
+                            <i class="fas fa-circle-check"></i>
+                            <div>
+                                <strong id="selectedServicePillTitle">General Gastroenterology Consultation</strong>
+                                <span id="selectedServicePillNote">Specialist clinical consultation with Dr. Deepak B G</span>
+                            </div>
+                        </div>
+
+                        <div class="modal-field" style="margin-top: 18px;">
+                            <label for="consultationSelect">What type of consultation or service do you need? <span class="req">*</span></label>
+                            <select id="consultationSelect" class="modal-select" required>
+                                <option value="general">General Gastroenterology Consultation</option>
+                                <option value="gerd">Acid Reflux / GERD</option>
+                                <option value="gastritis">Gastritis and Indigestion</option>
+                                <option value="abdominal_pain">Abdominal Pain Consultation</option>
+                                <option value="ibs">IBS and Bowel Health</option>
+                                <option value="constipation">Constipation and Digestive Health</option>
+                                <option value="liver">Liver and Digestive Health</option>
+                                <option value="followup">Follow-up Consultation</option>
+                                <option value="endoscopy">Endoscopy Enquiry (Requires Confirmation)</option>
+                                <option value="colonoscopy">Colonoscopy Enquiry (Requires Confirmation)</option>
+                                <option value="other">Other Digestive Health Concern</option>
+                            </select>
+                            <span class="field-error" id="consultError">Please select a consultation type.</span>
+                        </div>
+
+                        <div class="modal-field" style="margin-top: 14px;">
+                            <label><i class="fas fa-hospital-user"></i> Consultation Mode <span class="req">*</span></label>
+                            <div class="radio-toggle-group">
+                                <label class="radio-chip active">
+                                    <input type="radio" name="consultMode" value="in_person" checked>
+                                    <i class="fas fa-location-dot"></i> In-Person Visit (Mysuru Clinic)
+                                </label>
+                                <label class="radio-chip">
+                                    <input type="radio" name="consultMode" value="online">
+                                    <i class="fas fa-video"></i> Online Teleconsultation
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="modal-actions">
+                            <button type="button" class="btn btn-step-back" id="backToStep1">
+                                <i class="fas fa-arrow-left"></i> Back
+                            </button>
+                            <button type="button" class="btn btn-primary btn-step-next" id="goToStep3">
+                                Choose Date &amp; Time <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- STEP 3: Date & Evening Time Slot -->
+                    <div class="modal-step-panel" id="stepPanel3">
+                        <h4 class="step-heading"><i class="fas fa-calendar-alt"></i> Appointment Schedule</h4>
+                        <p class="step-subtext">Visiting hours: <strong>Mon – Sat: 6:00 PM – 9:00 PM</strong> (Sunday: Closed).</p>
+
+                        <div class="form-grid-modal">
+                            <div class="modal-field">
+                                <label for="apptDate"><i class="fas fa-calendar-day"></i> Preferred Date <span class="req">*</span></label>
+                                <input type="date" id="apptDate" class="modal-input" required>
+                                <span class="field-error" id="dateError">Please select a valid upcoming date (Mon–Sat).</span>
+                                <div class="sunday-warning" id="sundayNotice" style="display: none;">
+                                    <i class="fas fa-circle-exclamation"></i> The clinic is closed on Sundays. Please choose Monday to Saturday.
+                                </div>
+                            </div>
+
+                            <div class="modal-field">
+                                <label for="apptTimeSlot"><i class="fas fa-clock"></i> Evening Time Slot <span class="req">*</span></label>
+                                <select id="apptTimeSlot" class="modal-select" required>
+                                    <option value="6:00 PM – 7:00 PM" selected>6:00 PM – 7:00 PM</option>
+                                    <option value="7:00 PM – 8:00 PM">7:00 PM – 8:00 PM</option>
+                                    <option value="8:00 PM – 9:00 PM">8:00 PM – 9:00 PM</option>
+                                </select>
+                                <span class="field-error" id="timeError">Please select a preferred slot.</span>
+                            </div>
+                        </div>
+
+                        <div class="modal-field" style="margin-top: 14px;">
+                            <label for="symptomsDesc"><i class="fas fa-notes-medical"></i> Symptoms or Medical Concerns <span class="opt">(Optional)</span></label>
+                            <textarea id="symptomsDesc" class="modal-textarea" rows="3" placeholder="Describe any current symptoms, duration, or previous treatments..."></textarea>
+                        </div>
+
+                        <div class="modal-actions">
+                            <button type="button" class="btn btn-step-back" id="backToStep2">
+                                <i class="fas fa-arrow-left"></i> Back
+                            </button>
+                            <button type="button" class="btn btn-primary btn-step-next" id="goToStep4">
+                                Review &amp; Submit <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- STEP 4: Review and Submit -->
+                    <div class="modal-step-panel" id="stepPanel4">
+                        <h4 class="step-heading"><i class="fas fa-clipboard-check"></i> Review Your Appointment</h4>
+                        <p class="step-subtext">Please verify your details before submitting your consultation request.</p>
+
+                        <div class="review-summary-card">
+                            <div class="review-row">
+                                <span class="review-label"><i class="fas fa-user"></i> Patient:</span>
+                                <strong class="review-value" id="revName">—</strong>
+                            </div>
+                            <div class="review-row">
+                                <span class="review-label"><i class="fas fa-phone"></i> Mobile:</span>
+                                <strong class="review-value" id="revPhone">—</strong>
+                            </div>
+                            <div class="review-row" id="revEmailRow">
+                                <span class="review-label"><i class="fas fa-envelope"></i> Email:</span>
+                                <span class="review-value" id="revEmail">—</span>
+                            </div>
+                            <div class="review-row">
+                                <span class="review-label"><i class="fas fa-stethoscope"></i> Service:</span>
+                                <strong class="review-value text-teal" id="revService">—</strong>
+                            </div>
+                            <div class="review-row">
+                                <span class="review-label"><i class="fas fa-hospital-user"></i> Mode:</span>
+                                <span class="review-value" id="revMode">—</span>
+                            </div>
+                            <div class="review-row">
+                                <span class="review-label"><i class="fas fa-calendar-day"></i> Schedule:</span>
+                                <strong class="review-value" id="revSchedule">—</strong>
+                            </div>
+                        </div>
+
+                        <div class="submission-feedback-box" id="submissionFeedback" style="display: none;"></div>
+
+                        <div class="modal-actions">
+                            <button type="button" class="btn btn-step-back" id="backToStep3">
+                                <i class="fas fa-arrow-left"></i> Edit Details
+                            </button>
+                            <button type="submit" class="btn btn-primary btn-submit-request" id="submitApptBtn">
+                                <span class="btn-text"><i class="fas fa-paper-plane"></i> Submit Appointment Request</span>
+                                <span class="btn-spinner" style="display: none;"><i class="fas fa-circle-notch fa-spin"></i> Processing...</span>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

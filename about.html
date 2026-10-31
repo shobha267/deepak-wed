@@ -3,49 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | DBG Gastro Care</title>
-    <link rel="stylesheet" href="style.css">
+    <title>About Us | DBG Gastro Care | Dr. Deepak B G</title>
+    <meta name="description" content="Learn about Dr. Deepak B G, premier surgical gastroenterologist in Mysore. Dedicated to providing world-class Advanced Gastro Care with a patient-first approach.">
+    <meta name="keywords" content="Best Surgical Gastroenterologist in Mysore, Advanced Gastro Care Mysore, Laparoscopic Gastro Surgeon Mysore, Gastrointestinal Surgeon in Mysore, Dr. Deepak B G Gastroenterologist">
+    <link rel="stylesheet" href="style.css?v=4.4">
+    <link rel="icon" type="image/png" href="assets/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-    <!-- Innovative Background Decorations -->
-    <div class="bg-decor">
-        <div class="decor-item decor-1"><i class="fas fa-plus-circle decor-cross"></i></div>
-        <div class="decor-item decor-2"><i class="fas fa-heartbeat"></i></div>
-        <div class="decor-item decor-3"><i class="fas fa-stethoscope decor-circle"></i></div>
-        <div class="decor-item decor-4"><i class="fas fa-dna"></i></div>
-        <div class="decor-item decor-5"><i class="fas fa-briefcase-medical decor-cross"></i></div>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-ticker">
+            <span data-key="top_kw_1"><i class="fas fa-user-md"></i> Dr. Deepak B G Gastroenterologist</span>
+            <i class="fas fa-circle"></i>
+            <span data-key="top_kw_2">Advanced Gastro Care Mysuru</span>
+            <i class="fas fa-circle"></i>
+            <span data-key="top_kw_3">Laparoscopic Gastro Surgeon Mysuru</span>
+            <i class="fas fa-circle"></i>
+            <span data-key="top_kw_4">Gastrointestinal Surgeon in Mysuru</span>
+        </div>
     </div>
 
-    <!-- Header & Navigation -->
-    <header>
+    <!-- Header & Navigation (Fixed / Sticky with Stable Logo) -->
+        <!-- Locked Global Sticky Header (Identical Before & After Scroll) -->
+    <header id="siteHeader">
         <div class="container navbar">
-            <a href="index.html" class="logo">
-                <img src="assets/logo.png" alt="DBG Gastro Care Logo">
+            <a href="index.html" class="logo" aria-label="DBG Gastro Care Home">
+                <img src="assets/logo.png?v=4.4" alt="DBG Gastro Care Logo" width="135" height="52">
             </a>
             
             <nav class="nav-links" id="navLinks">
-                <a href="index.html" data-key="nav_home">Home</a>
-                <a href="about.html" class="active" data-key="nav_about">About</a>
-                <a href="services.html" data-key="nav_services">Services</a>
-                <a href="procedures.html" data-key="nav_procedures">Procedures</a>
-                <a href="contact.html" data-key="nav_contact">Contact</a>
+                <a href="index.html">Home</a>
+                <a href="about.html" class="active">About</a>
+                <a href="services.html">Services</a>
+                <a href="procedures.html">Procedures</a>
+                <a href="index.html#insights">Health Insights</a>
+                <a href="index.html#appointment">Appointment</a>
+                <a href="contact.html">Contact</a>
             </nav>
             
-            <div class="lang-dropdown">
-                <button class="lang-dropbtn">
-                    <i class="fas fa-globe"></i> <span>English</span> <i class="fas fa-chevron-down" style="font-size: 0.7em;"></i>
-                </button>
-                <div class="lang-dropdown-content">
-                    <a href="#" data-lang="en">English</a>
-                    <a href="#" data-lang="kn">Kannada</a>
-                    <a href="#" data-lang="hi">Hindi</a>
+            <div class="header-actions">
+                <div class="header-call">
+                    <span class="call-sub">CALL ANYTIME</span>
+                    <a href="tel:+919019270985" class="call-tel">+91 – 90192 70985</a>
                 </div>
-            </div>
 
-            <div class="mobile-menu-btn" id="mobileMenuBtn">
-                <i class="fas fa-bars"></i>
+                <a href="index.html#appointment" class="btn-header-appt">
+                    <i class="fas fa-calendar-check"></i> Appointment
+                </a>
+
+                <div class="lang-static-badge" aria-label="Language: English">
+                    <i class="fas fa-globe"></i> <span>English</span>
+                </div>
+
+                <div class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Navigation Menu">
+                    <i class="fas fa-bars"></i>
+                </div>
             </div>
         </div>
     </header>
@@ -54,240 +68,36 @@
     <section class="page-header">
         <div class="container">
             <h1 data-key="about_header_title">About Us</h1>
-            <p data-key="about_header_desc">Dedicated to providing the highest quality gastrointestinal surgical care in Mysore.</p>
+            <p data-key="about_header_desc">Dedicated to providing the highest quality gastrointestinal surgical and digestive healthcare in Mysore.</p>
         </div>
     </section>
 
     <!-- Doctor Section -->
     <section class="doctor-intro">
         <div class="container">
-            <div class="doctor-content">
-                <div class="doctor-img-wrap reveal reveal-left active">
-                    <img src="assets/doctor.png" alt="Dr. Deepak B G">
-                </div>
-                <div class="doctor-details reveal reveal-right active">
-                    <h2 data-key="doc_name">Dr. Deepak B G</h2>
-                    <p style="color: var(--primary-green); font-weight: bold; margin-bottom: 5px;" data-key="doc_degree">MS from JIPMER, MCh from GB Pant Institute</p>
-                    <p style="font-weight: bold; margin-bottom: 15px;" data-key="doc_specialty">A surgical gastroenterologist</p>
-                    <p data-key="doc_desc_1">Dr. Deepak B, a distinguished surgical gastroenterologist based in Mysore, boasts a decade of valuable experience in the field. His educational background includes an MS in Surgery from the prestigious JIPMER and an MCh in Surgical Gastroenterology from the renowned GB Pant Institute in Delhi.</p>
-                    <p data-key="doc_desc_2">He is specialized in complex gastrointestinal surgeries and has a proven track record of successful outcomes in oncology and laparoscopic procedures.</p>
-                    <ul style="margin-top: 15px; margin-bottom: 20px; list-style-type: none;">
-                        <li><i class="fas fa-check-circle" style="color: var(--primary-green); margin-right: 8px;"></i> <span data-key="doc_bullet_1">Over 1000 successful GI oncology surgeries</span></li>
-                        <li><i class="fas fa-check-circle" style="color: var(--primary-green); margin-right: 8px;"></i> <span data-key="doc_bullet_2">More than 500 advanced laparoscopic procedures</span></li>
-                        <li><i class="fas fa-check-circle" style="color: var(--primary-green); margin-right: 8px;"></i> <span data-key="doc_bullet_3">Numerous intricate hepato-pancreatico-biliary surgeries</span></li>
-                        <li><i class="fas fa-check-circle" style="color: var(--primary-green); margin-right: 8px;"></i> <span data-key="doc_bullet_4">Challenging redo and revision surgeries</span></li>
-                        <li><i class="fas fa-check-circle" style="color: var(--primary-green); margin-right: 8px;"></i> <span data-key="doc_bullet_5">Comprehensive management of complex gastrointestinal disorders</span></li>
-                    </ul>
+            <div class="doctor-card-wrapper reveal reveal-up">
+                <div class="doctor-content">
+                    <div class="doctor-img-wrap">
+                        <img src="assets/doctor.png?v=4.4" alt="Dr. Deepak B G - Premier Surgical Gastroenterologist">
+                    </div>
+                    <div class="doctor-details">
+                        <span class="degree" data-key="doc_degree">MS from JIPMER, MCh from GB Pant Institute</span>
+                        <h2 data-key="doc_name">Dr. Deepak B G</h2>
+                        <span class="specialty" data-key="doc_specialty">Best Gastrointestinal Surgeon in Mysore</span>
+                        <p data-key="doc_desc_1">As a premier Gastrointestinal Surgeon in Mysore, Dr. Deepak B G brings over a decade of specialized expertise in complex GI surgeries. A highly qualified Dr. Deepak B G Gastroenterologist, he is dedicated to delivering superior outcomes through advanced surgical techniques and compassionate patient care.</p>
+                        <p data-key="doc_desc_2">He is specialized in complex gastrointestinal surgeries and has a proven track record of successful outcomes in oncology and laparoscopic procedures.</p>
+                        
+                        <ul class="doctor-bullets">
+                            <li><i class="fas fa-check-circle"></i> <span data-key="doc_bullet_1">Over 1000 successful GI oncology surgeries</span></li>
+                            <li><i class="fas fa-check-circle"></i> <span data-key="doc_bullet_2">More than 500 advanced laparoscopic procedures</span></li>
+                            <li><i class="fas fa-check-circle"></i> <span data-key="doc_bullet_3">Numerous intricate hepato-pancreatico-biliary surgeries</span></li>
+                            <li><i class="fas fa-check-circle"></i> <span data-key="doc_bullet_4">Challenging redo and revision surgeries</span></li>
+                            <li><i class="fas fa-check-circle"></i> <span data-key="doc_bullet_5">Comprehensive management of complex gastrointestinal disorders</span></li>
+                        </ul>
 
-                    <!-- Vision Section - Visual Creative Design -->
-                    <div class="vision-section-animated" id="visionSection">
-                        <style>
-                            .vision-section-animated { margin-top: 35px; }
-
-                            /* --- Main Vision Banner --- */
-                            .vision-banner {
-                                position: relative;
-                                border-radius: 18px;
-                                overflow: hidden;
-                                background: linear-gradient(135deg, #00549A 0%, #003f75 50%, #004f22 100%);
-                                padding: 28px 28px 22px;
-                                margin-bottom: 20px;
-                                box-shadow: 0 10px 36px rgba(0,84,154,0.22);
-                                animation: visionBannerIn 0.8s cubic-bezier(0.22,1,0.36,1) both;
-                            }
-                            @keyframes visionBannerIn {
-                                from { opacity: 0; transform: translateY(25px); }
-                                to   { opacity: 1; transform: translateY(0); }
-                            }
-                            /* Watermark icon */
-                            .vision-banner::before {
-                                content: '\f06e';
-                                font-family: 'Font Awesome 6 Free';
-                                font-weight: 900;
-                                position: absolute;
-                                right: -15px;
-                                bottom: -20px;
-                                font-size: 9rem;
-                                color: rgba(255,255,255,0.05);
-                                pointer-events: none;
-                            }
-                            /* Glowing orb */
-                            .vision-banner::after {
-                                content: '';
-                                position: absolute;
-                                top: -30px; right: -30px;
-                                width: 150px; height: 150px;
-                                background: radial-gradient(circle, rgba(245,130,32,0.25) 0%, transparent 70%);
-                                border-radius: 50%;
-                                pointer-events: none;
-                                animation: orbPulse 3s ease-in-out infinite;
-                            }
-                            @keyframes orbPulse {
-                                0%,100% { transform: scale(1); opacity: 0.6; }
-                                50%     { transform: scale(1.2); opacity: 1; }
-                            }
-                            .vision-banner-header {
-                                display: flex;
-                                align-items: center;
-                                gap: 14px;
-                                margin-bottom: 12px;
-                            }
-                            .vision-eye-icon {
-                                width: 50px; height: 50px;
-                                border-radius: 50%;
-                                background: rgba(255,255,255,0.15);
-                                border: 2px solid rgba(255,255,255,0.3);
-                                display: flex; align-items: center; justify-content: center;
-                                font-size: 1.4rem; color: #fff;
-                                animation: iconPulseV 2.5s ease-in-out infinite;
-                                flex-shrink: 0;
-                            }
-                            @keyframes iconPulseV {
-                                0%,100% { box-shadow: 0 0 0 0 rgba(255,255,255,0.3); }
-                                50%     { box-shadow: 0 0 0 10px rgba(255,255,255,0); }
-                            }
-                            .vision-banner-title {
-                                font-size: 1.4rem;
-                                font-weight: 700;
-                                color: #fff;
-                                margin: 0; padding: 0;
-                            }
-                            .vision-banner-title::after { display: none; }
-                            .vision-banner-divider {
-                                height: 2px;
-                                background: linear-gradient(90deg, rgba(245,130,32,0.9), rgba(103,160,38,0.9), transparent);
-                                border-radius: 2px;
-                                margin-bottom: 14px;
-                                animation: dividerExpandV 1s ease-out 0.4s both;
-                                transform-origin: left;
-                            }
-                            @keyframes dividerExpandV {
-                                from { transform: scaleX(0); } to { transform: scaleX(1); }
-                            }
-                            .vision-banner-text {
-                                color: rgba(255,255,255,0.88);
-                                line-height: 1.7;
-                                font-size: 0.93rem;
-                                margin: 0;
-                            }
-
-                            /* --- Vision Pillars Grid --- */
-                            .vision-pillars {
-                                display: grid;
-                                grid-template-columns: repeat(3, 1fr);
-                                gap: 14px;
-                            }
-                            .vision-pillar {
-                                background: #fff;
-                                border-radius: 16px;
-                                padding: 22px 16px 18px;
-                                text-align: center;
-                                box-shadow: 0 4px 18px rgba(0,84,154,0.08);
-                                border-bottom: 3px solid transparent;
-                                transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s;
-                                animation: pillarIn 0.7s cubic-bezier(0.22,1,0.36,1) both;
-                                cursor: default;
-                            }
-                            .vision-pillar:nth-child(1) { animation-delay: 0.1s; border-bottom-color: #00549A; }
-                            .vision-pillar:nth-child(2) { animation-delay: 0.25s; border-bottom-color: #67A026; }
-                            .vision-pillar:nth-child(3) { animation-delay: 0.4s; border-bottom-color: #F58220; }
-                            @keyframes pillarIn {
-                                from { opacity: 0; transform: translateY(20px); }
-                                to   { opacity: 1; transform: translateY(0); }
-                            }
-                            .vision-pillar:hover {
-                                transform: translateY(-6px);
-                                box-shadow: 0 12px 30px rgba(0,84,154,0.14);
-                            }
-                            .vision-pillar-icon {
-                                width: 60px; height: 60px;
-                                border-radius: 50%;
-                                display: flex; align-items: center; justify-content: center;
-                                font-size: 1.6rem;
-                                color: #fff;
-                                margin: 0 auto 14px;
-                                position: relative;
-                            }
-                            .vision-pillar:nth-child(1) .vision-pillar-icon {
-                                background: linear-gradient(135deg, #00549A, #0077C0);
-                                box-shadow: 0 6px 20px rgba(0,84,154,0.35);
-                            }
-                            .vision-pillar:nth-child(2) .vision-pillar-icon {
-                                background: linear-gradient(135deg, #67A026, #008751);
-                                box-shadow: 0 6px 20px rgba(103,160,38,0.35);
-                            }
-                            .vision-pillar:nth-child(3) .vision-pillar-icon {
-                                background: linear-gradient(135deg, #F58220, #E11C54);
-                                box-shadow: 0 6px 20px rgba(245,130,32,0.35);
-                            }
-                            .vision-pillar-icon::after {
-                                content: '';
-                                position: absolute;
-                                inset: -4px;
-                                border-radius: 50%;
-                                background: inherit;
-                                opacity: 0.2;
-                                animation: ripple 2.5s ease-out infinite;
-                            }
-                            .vision-pillar:nth-child(1) .vision-pillar-icon::after { animation-delay: 0s; }
-                            .vision-pillar:nth-child(2) .vision-pillar-icon::after { animation-delay: 0.8s; }
-                            .vision-pillar:nth-child(3) .vision-pillar-icon::after { animation-delay: 1.6s; }
-                            @keyframes ripple {
-                                0%   { transform: scale(1); opacity: 0.25; }
-                                100% { transform: scale(1.9); opacity: 0; }
-                            }
-                            .vision-pillar-label {
-                                font-size: 0.88rem;
-                                font-weight: 700;
-                                color: #1e293b;
-                                margin-bottom: 6px;
-                                text-transform: uppercase;
-                                letter-spacing: 0.5px;
-                            }
-                            .vision-pillar-desc {
-                                font-size: 0.8rem;
-                                color: #64748b;
-                                line-height: 1.5;
-                                margin: 0;
-                            }
-                            @media (max-width: 600px) {
-                                .vision-pillars { grid-template-columns: 1fr; }
-                            }
-                        </style>
-
-                        <!-- Top Banner: Main Vision Text -->
-                        <div class="vision-banner">
-                            <div class="vision-banner-header">
-                                <div class="vision-eye-icon"><i class="fas fa-eye"></i></div>
-                                <h3 class="vision-banner-title" data-key="vision_title">Our Vision</h3>
-                            </div>
-                            <div class="vision-banner-divider"></div>
-                            <p class="vision-banner-text" data-key="vision_desc">At DBG Gastro Care, we are committed to delivering advanced, compassionate, and comprehensive gastroenterology and surgical care. Led by Dr. Deepak B, our center is dedicated to providing world-class treatment solutions with a patient-first approach. We strive to ensure every patient receives individualized treatment plans, guided by ethical medical practices and the latest advancements in gastroenterology.</p>
-                        </div>
-
-                        <!-- Visual Pillars: 3 Key Values -->
-                        <div class="vision-pillars">
-                            <div class="vision-pillar">
-                                <div class="vision-pillar-icon">
-                                    <i class="fas fa-user-shield"></i>
-                                </div>
-                                <div class="vision-pillar-label" data-key="patient_first">Patient First</div>
-                                <p class="vision-pillar-desc" data-key="patient_first_desc">Every decision is driven by patient safety, comfort, and well-being above all else.</p>
-                            </div>
-                            <div class="vision-pillar">
-                                <div class="vision-pillar-icon">
-                                    <i class="fas fa-microscope"></i>
-                                </div>
-                                <div class="vision-pillar-label" data-key="adv_tech">Advanced Technology</div>
-                                <p class="vision-pillar-desc" data-key="adv_tech_desc">Combining cutting-edge medical tools with precision for accurate diagnosis & treatment.</p>
-                            </div>
-                            <div class="vision-pillar">
-                                <div class="vision-pillar-icon">
-                                    <i class="fas fa-heart-pulse"></i>
-                                </div>
-                                <div class="vision-pillar-label" data-key="comp_care">Compassionate Care</div>
-                                <p class="vision-pillar-desc" data-key="comp_care_desc">Providing empathetic, personalized care in a comfortable and supportive environment.</p>
-                            </div>
+                        <div class="doctor-action-btns">
+                            <a href="index.html#appointment" class="btn btn-primary" data-key="btn_book_appt">Book Appointment</a>
+                            <a href="tel:+919019270985" class="btn btn-call"><i class="fas fa-phone-alt"></i> <span data-key="btn_call_now">Call +91 90192 70985</span></a>
                         </div>
                     </div>
                 </div>
@@ -295,53 +105,332 @@
         </div>
     </section>
 
+    <!-- Why Choose DBG Gastro Care on About Page -->
+    <section class="why-choose-section" style="background: var(--white);">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-key="why_choose_title">Why Choose DBG Gastro Care?</h2>
+                <p data-key="why_choose_subtitle">Dedicated clinical expertise, compassionate care, and personalized digestive wellness</p>
+            </div>
+
+            <div class="why-grid">
+                <div class="why-card reveal reveal-up">
+                    <div class="why-icon"><i class="fas fa-user-check"></i></div>
+                    <h3 data-key="why_item1_title">Patient-Focused Consultations</h3>
+                    <p data-key="why_item1_desc">Thorough, unhurried evaluations where patient concerns, medical history, and daily comfort are carefully understood.</p>
+                </div>
+
+                <div class="why-card reveal reveal-up" style="transition-delay: 0.1s;">
+                    <div class="why-icon"><i class="fas fa-comments"></i></div>
+                    <h3 data-key="why_item2_title">Clear Medical Explanations</h3>
+                    <p data-key="why_item2_desc">Transparent discussions demystifying gastro symptoms, diagnosis, and treatment pathways with complete clarity.</p>
+                </div>
+
+                <div class="why-card reveal reveal-up" style="transition-delay: 0.2s;">
+                    <div class="why-icon"><i class="fas fa-clipboard-list"></i></div>
+                    <h3 data-key="why_item3_title">Individualised Treatment Planning</h3>
+                    <p data-key="why_item3_desc">Personalized care protocols tailored to your unique clinical condition, symptoms, and long-term digestive well-being.</p>
+                </div>
+
+                <div class="why-card reveal reveal-up" style="transition-delay: 0.3s;">
+                    <div class="why-icon"><i class="fas fa-apple-whole"></i></div>
+                    <h3 data-key="why_item4_title">Preventive Digestive Care</h3>
+                    <p data-key="why_item4_desc">Evidence-based nutritional, lifestyle, and screening advice to support a healthy gut microbiome and prevent complications.</p>
+                </div>
+
+                <div class="why-card reveal reveal-up" style="transition-delay: 0.4s;">
+                    <div class="why-icon"><i class="fas fa-calendar-days"></i></div>
+                    <h3 data-key="why_item5_title">Convenient Appointment Access</h3>
+                    <p data-key="why_item5_desc">Prompt appointment scheduling, direct specialist access, and flexible evening clinic hours in Mysuru.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
+        <!-- Premium Footer -->
     <footer>
         <div class="container">
             <div class="footer-content">
                 <div class="footer-col">
-                    <h3 data-key="footer_clinic_name">DBG Gastro Care</h3>
-                    <p data-key="footer_clinic_desc">Expert Care for a Healthier Gut. Advanced surgical gastroenterology in Mysore.</p>
-                    <div class="social-links">
-                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
-                    </div>
+                    <a href="index.html" class="footer-logo">
+                        <img src="assets/logo.png?v=4.4" alt="DBG Gastro Care">
+                    </a>
+                    <p>
+                        Specialist surgical gastroenterology, advanced laparoscopy, and comprehensive digestive healthcare led by Dr. Deepak B G in Mysuru. Dedicated to patient-first precision and gut wellness.
+                    </p>
                 </div>
+
                 <div class="footer-col">
-                    <h3 data-key="footer_quick_links">Quick Links</h3>
+                    <h3>Quick Navigation</h3>
                     <div class="footer-links">
-                        <a href="index.html" data-key="nav_home">Home</a>
-                        <a href="about.html" data-key="nav_about">About Us</a>
-                        <a href="services.html" data-key="nav_services">Services</a>
-                        <a href="procedures.html" data-key="nav_procedures">Procedures</a>
-                        <a href="contact.html" data-key="nav_contact">Contact</a>
+                        <a href="index.html"><i class="fas fa-chevron-right"></i> Home</a>
+                        <a href="about.html"><i class="fas fa-chevron-right"></i> About Dr. Deepak</a>
+                        <a href="services.html"><i class="fas fa-chevron-right"></i> Services</a>
+                        <a href="procedures.html"><i class="fas fa-chevron-right"></i> Procedures</a>
+                        <a href="index.html#insights"><i class="fas fa-chevron-right"></i> Health Insights</a>
+                        <a href="index.html#appointment"><i class="fas fa-chevron-right"></i> Book Appointment</a>
+                        <a href="contact.html"><i class="fas fa-chevron-right"></i> Contact Us</a>
                     </div>
                 </div>
+
                 <div class="footer-col">
-                    <h3 data-key="footer_contact_info">Contact Info</h3>
+                    <h3>Specialist Areas</h3>
                     <div class="footer-links">
-                        <p><i class="fas fa-map-marker-alt"></i> <span data-key="contact_location">C&D block, 1533, Anikethana Rd, Kuvempunagara North, Mysuru</span></p>
-                        <p><i class="fas fa-phone"></i> +91 90192 70985</p>
-                        <p><i class="fas fa-envelope"></i> info@dbggastrocare.com</p>
+                        <a href="services.html"><i class="fas fa-chevron-right"></i> Acid Reflux (GERD)</a>
+                        <a href="services.html"><i class="fas fa-chevron-right"></i> Gastritis &amp; Indigestion</a>
+                        <a href="services.html"><i class="fas fa-chevron-right"></i> IBS &amp; Bowel Health</a>
+                        <a href="services.html"><i class="fas fa-chevron-right"></i> Fatty Liver Screening</a>
+                        <a href="procedures.html"><i class="fas fa-chevron-right"></i> Upper GI Endoscopy</a>
+                        <a href="procedures.html"><i class="fas fa-chevron-right"></i> Colonoscopy</a>
                     </div>
                 </div>
-                <div class="footer-col">
-                    <h3 data-key="footer_visiting_hours">Visiting Hours</h3>
-                    <div class="visiting-hours">
-                        <p><span data-key="footer_mon_sat">Mon - Sat:</span> <span data-key="footer_time">6:00 PM – 9:00 PM</span></p>
-                        <p><span data-key="footer_sun">Sunday:</span> <span data-key="footer_holiday">Holiday</span></p>
-                    </div>
+
+                <div class="footer-col footer-hours">
+                    <h3>Clinic Location &amp; Hours</h3>
+                    <p><i class="fas fa-map-marker-alt" style="color: var(--soft-orange);"></i> C&amp;D Block, 1533, Anikethana Rd, Kuvempunagara North, Mysuru</p>
+                    <p><i class="fas fa-phone-alt" style="color: var(--soft-orange);"></i> <a href="tel:+919019270985" style="color: inherit;">+91 – 90192 70985</a></p>
+                    <p style="margin-top: 10px;"><strong>Visiting Hours:</strong></p>
+                    <p>Mon – Sat: <strong>6:00 PM – 9:00 PM</strong></p>
+                    <p>Sunday: <strong style="color: #F87171;">Holiday</strong></p>
                 </div>
             </div>
+
             <div class="footer-bottom">
-                <p data-key="footer_copyright">&copy; 2026 DBG Gastro Care. All Rights Reserved.</p>
+                <p>&copy; 2026 DBG Gastro Care. All Rights Reserved. Client-approved asset identity preserved. Designed for compassionate patient care.</p>
             </div>
         </div>
     </footer>
 
-    <script src="translations.js"></script>
-    <script src="script.js"></script>
+    <script src="translations.js?v=4.4"></script>
+    <script src="script.js?v=4.4"></script>
+<!-- =========================================================================
+         SMART APPOINTMENT BOOKING MODAL (Step-by-Step Flow)
+         ========================================================================= -->
+    <!-- 13. Smart Appointment Booking Modal (4-Step Flow) -->
+    <div id="appointmentModal" class="appt-modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" style="display: none;">
+        <div class="appt-modal-overlay" id="modalBackdrop"></div>
+        <div class="appt-modal-container">
+            <div class="appt-modal-card">
+                <!-- Modal Header -->
+                <div class="appt-modal-header">
+                    <div>
+                        <span class="modal-badge"><i class="fas fa-calendar-check"></i> DBG Gastro Care</span>
+                        <h3 id="modalTitle">Smart Appointment Booking</h3>
+                    </div>
+                    <button type="button" class="modal-close-btn" id="closeModalBtn" aria-label="Close modal">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+
+                <!-- Stepper Progress Bar -->
+                <div class="modal-stepper">
+                    <div class="step-indicator active" data-step="1">
+                        <div class="step-num">1</div>
+                        <span class="step-text">Patient</span>
+                    </div>
+                    <div class="step-line"></div>
+                    <div class="step-indicator" data-step="2">
+                        <div class="step-num">2</div>
+                        <span class="step-text">Consultation</span>
+                    </div>
+                    <div class="step-line"></div>
+                    <div class="step-indicator" data-step="3">
+                        <div class="step-num">3</div>
+                        <span class="step-text">Schedule</span>
+                    </div>
+                    <div class="step-line"></div>
+                    <div class="step-indicator" data-step="4">
+                        <div class="step-num">4</div>
+                        <span class="step-text">Confirm</span>
+                    </div>
+                </div>
+
+                <!-- Modal Body Form -->
+                <form id="smartBookingForm" novalidate>
+                    <!-- STEP 1: Patient Information -->
+                    <div class="modal-step-panel active" id="stepPanel1">
+                        <h4 class="step-heading"><i class="fas fa-user-circle"></i> Patient Details</h4>
+                        <p class="step-subtext">Please provide your details for clinic registration and consultation records.</p>
+
+                        <div class="form-grid-modal">
+                            <div class="modal-field">
+                                <label for="patientName"><i class="fas fa-user"></i> Full Name <span class="req">*</span></label>
+                                <input type="text" id="patientName" class="modal-input" placeholder="e.g. Ramesh Kumar" required>
+                                <span class="field-error" id="nameError">Please enter the patient's full name.</span>
+                            </div>
+
+                            <div class="modal-field">
+                                <label for="patientPhone"><i class="fas fa-phone"></i> Mobile Number <span class="req">*</span></label>
+                                <input type="tel" id="patientPhone" class="modal-input" placeholder="e.g. 9876543210" required>
+                                <span class="field-error" id="phoneError">Please enter a valid 10-digit mobile number.</span>
+                            </div>
+
+                            <div class="modal-field">
+                                <label for="patientEmail"><i class="fas fa-envelope"></i> Email Address <span class="opt">(Optional)</span></label>
+                                <input type="email" id="patientEmail" class="modal-input" placeholder="e.g. name@example.com">
+                                <span class="field-error" id="emailError">Please enter a valid email address.</span>
+                            </div>
+
+                            <div class="modal-field">
+                                <label for="patientType"><i class="fas fa-user-tag"></i> Patient Status <span class="req">*</span></label>
+                                <select id="patientType" class="modal-select" required>
+                                    <option value="new">New Patient (First Visit)</option>
+                                    <option value="returning">Returning / Follow-up Patient</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="modal-actions right-only">
+                            <button type="button" class="btn btn-primary btn-step-next" id="goToStep2">
+                                Continue to Consultation <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- STEP 2: Consultation & Facility -->
+                    <div class="modal-step-panel" id="stepPanel2">
+                        <h4 class="step-heading"><i class="fas fa-stethoscope"></i> Select Consultation Facility</h4>
+                        <p class="step-subtext">Choose your specialized digestive care area or clinical consultation type.</p>
+
+                        <div class="selected-service-pill" id="selectedServiceBanner">
+                            <i class="fas fa-circle-check"></i>
+                            <div>
+                                <strong id="selectedServicePillTitle">General Gastroenterology Consultation</strong>
+                                <span id="selectedServicePillNote">Specialist clinical consultation with Dr. Deepak B G</span>
+                            </div>
+                        </div>
+
+                        <div class="modal-field" style="margin-top: 18px;">
+                            <label for="consultationSelect">What type of consultation or service do you need? <span class="req">*</span></label>
+                            <select id="consultationSelect" class="modal-select" required>
+                                <option value="general">General Gastroenterology Consultation</option>
+                                <option value="gerd">Acid Reflux / GERD</option>
+                                <option value="gastritis">Gastritis and Indigestion</option>
+                                <option value="abdominal_pain">Abdominal Pain Consultation</option>
+                                <option value="ibs">IBS and Bowel Health</option>
+                                <option value="constipation">Constipation and Digestive Health</option>
+                                <option value="liver">Liver and Digestive Health</option>
+                                <option value="followup">Follow-up Consultation</option>
+                                <option value="endoscopy">Endoscopy Enquiry (Requires Confirmation)</option>
+                                <option value="colonoscopy">Colonoscopy Enquiry (Requires Confirmation)</option>
+                                <option value="other">Other Digestive Health Concern</option>
+                            </select>
+                            <span class="field-error" id="consultError">Please select a consultation type.</span>
+                        </div>
+
+                        <div class="modal-field" style="margin-top: 14px;">
+                            <label><i class="fas fa-hospital-user"></i> Consultation Mode <span class="req">*</span></label>
+                            <div class="radio-toggle-group">
+                                <label class="radio-chip active">
+                                    <input type="radio" name="consultMode" value="in_person" checked>
+                                    <i class="fas fa-location-dot"></i> In-Person Visit (Mysuru Clinic)
+                                </label>
+                                <label class="radio-chip">
+                                    <input type="radio" name="consultMode" value="online">
+                                    <i class="fas fa-video"></i> Online Teleconsultation
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="modal-actions">
+                            <button type="button" class="btn btn-step-back" id="backToStep1">
+                                <i class="fas fa-arrow-left"></i> Back
+                            </button>
+                            <button type="button" class="btn btn-primary btn-step-next" id="goToStep3">
+                                Choose Date &amp; Time <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- STEP 3: Date & Evening Time Slot -->
+                    <div class="modal-step-panel" id="stepPanel3">
+                        <h4 class="step-heading"><i class="fas fa-calendar-alt"></i> Appointment Schedule</h4>
+                        <p class="step-subtext">Visiting hours: <strong>Mon – Sat: 6:00 PM – 9:00 PM</strong> (Sunday: Closed).</p>
+
+                        <div class="form-grid-modal">
+                            <div class="modal-field">
+                                <label for="apptDate"><i class="fas fa-calendar-day"></i> Preferred Date <span class="req">*</span></label>
+                                <input type="date" id="apptDate" class="modal-input" required>
+                                <span class="field-error" id="dateError">Please select a valid upcoming date (Mon–Sat).</span>
+                                <div class="sunday-warning" id="sundayNotice" style="display: none;">
+                                    <i class="fas fa-circle-exclamation"></i> The clinic is closed on Sundays. Please choose Monday to Saturday.
+                                </div>
+                            </div>
+
+                            <div class="modal-field">
+                                <label for="apptTimeSlot"><i class="fas fa-clock"></i> Evening Time Slot <span class="req">*</span></label>
+                                <select id="apptTimeSlot" class="modal-select" required>
+                                    <option value="6:00 PM – 7:00 PM" selected>6:00 PM – 7:00 PM</option>
+                                    <option value="7:00 PM – 8:00 PM">7:00 PM – 8:00 PM</option>
+                                    <option value="8:00 PM – 9:00 PM">8:00 PM – 9:00 PM</option>
+                                </select>
+                                <span class="field-error" id="timeError">Please select a preferred slot.</span>
+                            </div>
+                        </div>
+
+                        <div class="modal-field" style="margin-top: 14px;">
+                            <label for="symptomsDesc"><i class="fas fa-notes-medical"></i> Symptoms or Medical Concerns <span class="opt">(Optional)</span></label>
+                            <textarea id="symptomsDesc" class="modal-textarea" rows="3" placeholder="Describe any current symptoms, duration, or previous treatments..."></textarea>
+                        </div>
+
+                        <div class="modal-actions">
+                            <button type="button" class="btn btn-step-back" id="backToStep2">
+                                <i class="fas fa-arrow-left"></i> Back
+                            </button>
+                            <button type="button" class="btn btn-primary btn-step-next" id="goToStep4">
+                                Review &amp; Submit <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- STEP 4: Review and Submit -->
+                    <div class="modal-step-panel" id="stepPanel4">
+                        <h4 class="step-heading"><i class="fas fa-clipboard-check"></i> Review Your Appointment</h4>
+                        <p class="step-subtext">Please verify your details before submitting your consultation request.</p>
+
+                        <div class="review-summary-card">
+                            <div class="review-row">
+                                <span class="review-label"><i class="fas fa-user"></i> Patient:</span>
+                                <strong class="review-value" id="revName">—</strong>
+                            </div>
+                            <div class="review-row">
+                                <span class="review-label"><i class="fas fa-phone"></i> Mobile:</span>
+                                <strong class="review-value" id="revPhone">—</strong>
+                            </div>
+                            <div class="review-row" id="revEmailRow">
+                                <span class="review-label"><i class="fas fa-envelope"></i> Email:</span>
+                                <span class="review-value" id="revEmail">—</span>
+                            </div>
+                            <div class="review-row">
+                                <span class="review-label"><i class="fas fa-stethoscope"></i> Service:</span>
+                                <strong class="review-value text-teal" id="revService">—</strong>
+                            </div>
+                            <div class="review-row">
+                                <span class="review-label"><i class="fas fa-hospital-user"></i> Mode:</span>
+                                <span class="review-value" id="revMode">—</span>
+                            </div>
+                            <div class="review-row">
+                                <span class="review-label"><i class="fas fa-calendar-day"></i> Schedule:</span>
+                                <strong class="review-value" id="revSchedule">—</strong>
+                            </div>
+                        </div>
+
+                        <div class="submission-feedback-box" id="submissionFeedback" style="display: none;"></div>
+
+                        <div class="modal-actions">
+                            <button type="button" class="btn btn-step-back" id="backToStep3">
+                                <i class="fas fa-arrow-left"></i> Edit Details
+                            </button>
+                            <button type="submit" class="btn btn-primary btn-submit-request" id="submitApptBtn">
+                                <span class="btn-text"><i class="fas fa-paper-plane"></i> Submit Appointment Request</span>
+                                <span class="btn-spinner" style="display: none;"><i class="fas fa-circle-notch fa-spin"></i> Processing...</span>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

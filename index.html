@@ -3,266 +3,1554 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DBG Gastro Care | Advanced Gastro Care in Mysore</title>
-    <meta name="description" content="Expert gastro care by Dr. Deepak B G, a distinguished surgical gastroenterologist based in Mysore. Over 1000 successful GI oncology surgeries.">
-    <link rel="stylesheet" href="style.css">
+    <title>DBG Gastro Care | Specialist Gastroenterology & Digestive Health | Dr. Deepak B G Mysuru</title>
+    <meta name="description" content="Experience expert gastroenterology and digestive healthcare in Mysore led by Dr. Deepak B G, Surgical Gastroenterologist. Compassionate evaluation for acid reflux, gastritis, IBS, liver health, and advanced GI surgery.">
+    <meta name="keywords" content="Gastroenterologist in Mysore, Dr Deepak B G, DBG Gastro Care, Surgical Gastroenterologist Mysore, Acid Reflux Treatment, Gastritis Mysuru, IBS Specialist, Laparoscopic GI Surgery Mysore">
+    <link rel="stylesheet" href="style.css?v=4.6">
+    <link rel="icon" type="image/png" href="assets/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-    <!-- Innovative Background Decorations -->
-    <div class="bg-decor">
-        <div class="decor-item decor-1"><i class="fas fa-plus-circle decor-cross"></i></div>
-        <div class="decor-item decor-2"><i class="fas fa-heartbeat"></i></div>
-        <div class="decor-item decor-3"><i class="fas fa-stethoscope decor-circle"></i></div>
-        <div class="decor-item decor-4"><i class="fas fa-dna"></i></div>
-        <div class="decor-item decor-5"><i class="fas fa-briefcase-medical decor-cross"></i></div>
+    <!-- 1. Top Bar Ticker -->
+    <div class="top-bar">
+        <div class="container top-bar-ticker">
+            <span><i class="fas fa-user-md"></i> Dr. Deepak B G • MS (JIPMER), MCh (GB Pant)</span>
+            <i class="fas fa-circle"></i>
+            <span>Specialist Surgical Gastroenterologist Mysuru</span>
+            <i class="fas fa-circle"></i>
+            <span>Evening Clinic: Mon – Sat: 6:00 PM – 9:00 PM</span>
+            <i class="fas fa-circle"></i>
+            <span><i class="fas fa-phone-alt"></i> +91 – 90192 70985</span>
+        </div>
     </div>
 
-    <!-- Header & Navigation -->
-    <header>
+    <!-- 2. Locked Global Sticky Header (Identical Before & After Scroll) -->
+    <header id="siteHeader">
         <div class="container navbar">
-            <a href="index.html" class="logo">
-                <img src="assets/logo.png" alt="DBG Gastro Care Logo">
+            <a href="index.html" class="logo" aria-label="DBG Gastro Care Home">
+                <img src="assets/logo.png?v=4.5" alt="DBG Gastro Care Logo" width="135" height="52">
             </a>
             
             <nav class="nav-links" id="navLinks">
-                <a href="index.html" class="active" data-key="nav_home">Home</a>
-                <a href="about.html" data-key="nav_about">About</a>
-                <a href="services.html" data-key="nav_services">Services</a>
-                <a href="procedures.html" data-key="nav_procedures">Procedures</a>
-                <a href="contact.html" data-key="nav_contact">Contact</a>
+                <a href="#hero" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#procedures">Procedures</a>
+                <a href="#insights">Health Insights</a>
+                <a href="#appointment">Appointment</a>
+                <a href="#contact">Contact</a>
             </nav>
             
-            <div class="lang-dropdown">
-                <button class="lang-dropbtn">
-                    <i class="fas fa-globe"></i> <span>English</span> <i class="fas fa-chevron-down" style="font-size: 0.7em;"></i>
-                </button>
-                <div class="lang-dropdown-content">
-                    <a href="#" data-lang="en">English</a>
-                    <a href="#" data-lang="kn">Kannada</a>
-                    <a href="#" data-lang="hi">Hindi</a>
+            <div class="header-actions">
+                <div class="header-call">
+                    <span class="call-sub">CALL ANYTIME</span>
+                    <a href="tel:+919019270985" class="call-tel">+91 – 90192 70985</a>
                 </div>
-            </div>
 
-            <div class="mobile-menu-btn" id="mobileMenuBtn">
-                <i class="fas fa-bars"></i>
+                <a href="#appointment" class="btn-header-appt">
+                    <i class="fas fa-calendar-check"></i> Appointment
+                </a>
+
+                <div class="lang-static-badge" aria-label="Language: English">
+                    <i class="fas fa-globe"></i> <span>English</span>
+                </div>
+
+                <div class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Navigation Menu">
+                    <i class="fas fa-bars"></i>
+                </div>
             </div>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
+    <!-- 3. Hero Section (Creative Two-Column Composition) -->
+    <section class="hero" id="hero">
         <div class="container hero-content">
-            <div class="hero-text">
-                <h1 data-key="hero_title_1">Expert Care for a <span data-key="hero_title_2">Healthier Gut</span></h1>
-                <p data-key="hero_desc">Advanced Gastro Care by Dr. Deepak B G, a distinguished surgical gastroenterologist based in Mysore.</p>
-                <div class="hero-buttons">
-                    <a href="contact.html" class="btn btn-primary" data-key="btn_book_appt">Book Appointment</a>
-                    <a href="services.html" class="btn btn-outline" data-key="btn_our_services">Our Services</a>
+            <!-- Left Column: Content -->
+            <div class="hero-text reveal">
+                <div class="hero-tag">
+                    <i class="fas fa-stethoscope"></i>
+                    <span>Specialist Gastroenterology Care</span>
                 </div>
-            </div>
-            <div class="hero-image reveal reveal-right">
-                <img src="assets/hero.png" alt="Advanced Clinic Equipment" class="float-animation">
-            </div>
-        </div>
-    </section>
+                
+                <h1>
+                    Better Digestive Health Starts With the Right Care
+                </h1>
+                
+                <p class="hero-desc">
+                    Your digestive health deserves attention and expert guidance. Explore personalised gastroenterology care, understand your symptoms, and take the next step towards better digestive well-being.
+                </p>
 
-    <!-- Highlights / Key Services -->
-    <section class="highlights">
-        <div class="container">
-            <div class="section-header">
-                <h2 data-key="expertise_title">Our Expertise</h2>
-                <p data-key="expertise_subtitle">Comprehensive management of complex gastrointestinal disorders</p>
-            </div>
-            <div class="highlight-grid">
-                <div class="highlight-card reveal reveal-up hover-lift">
-                    <div class="highlight-icon">
-                        <i class="fas fa-notes-medical"></i>
+                <div class="hero-features">
+                    <div class="hero-feat-item">
+                        <i class="fas fa-user-shield"></i>
+                        <span>Personalised Treatment</span>
                     </div>
-                    <h3 data-key="gastro_title">Gastro Treatment</h3>
-                    <p data-key="gastro_desc">Expert diagnosis and treatment for all your gastrointestinal problems.</p>
-                </div>
-                <div class="highlight-card reveal reveal-up hover-lift" style="transition-delay: 0.1s;">
-                    <div class="highlight-icon">
+                    <div class="hero-feat-item">
                         <i class="fas fa-microscope"></i>
+                        <span>Advanced Diagnostic Care</span>
                     </div>
-                    <h3 data-key="oncology_title">GI Oncology</h3>
-                    <p data-key="oncology_desc">Over 1000 successful GI oncology surgeries performed with precision.</p>
+                    <div class="hero-feat-item">
+                        <i class="fas fa-hand-holding-heart"></i>
+                        <span>Patient-Focused Support</span>
+                    </div>
                 </div>
-                <div class="highlight-card reveal reveal-up hover-lift" style="transition-delay: 0.2s;">
-                    <div class="highlight-icon">
-                        <i class="fas fa-procedures"></i>
+
+                <div class="hero-buttons">
+                    <a href="#appointment" class="btn btn-primary">
+                        <i class="fas fa-calendar-check"></i> Book Appointment
+                    </a>
+                    <a href="tel:+919019270985" class="btn btn-call">
+                        <i class="fas fa-phone-alt"></i> Call +91 90192 70985
+                    </a>
+                </div>
+
+                <p class="hero-trust-note">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Comprehensive clinical consultation, evidence-based evaluation, and surgical gastroenterology guidance.</span>
+                </p>
+            </div>
+
+            <!-- Right Column: Real Doctor Portrait + Digestive System Medical Illustration -->
+            <div class="hero-right-col reveal">
+                <!-- Original Doctor Card in Passport-size proportion up to shoulders -->
+                <div class="hero-doctor-card">
+                    <div class="hero-doctor-photo-wrap">
+                        <img src="assets/doctor.png?v=4.5" alt="Dr. Deepak B G - Surgical Gastroenterologist in Mysore">
                     </div>
-                    <h3 data-key="laparoscopy_title">Advanced Laparoscopy</h3>
-                    <p data-key="laparoscopy_desc">More than 500 advanced laparoscopic procedures for faster recovery.</p>
+                    <div class="hero-doctor-info">
+                        <h2 class="hero-doctor-name">Dr. Deepak B G</h2>
+                        <div class="hero-doctor-qual">MS (JIPMER) • MCh (GB Pant)</div>
+                        <div class="hero-doctor-specialty">Surgical Gastroenterologist &amp; GI Surgeon</div>
+                        <div class="hero-doctor-exp">
+                            <span class="exp-badge"><i class="fas fa-award"></i> 10+ Years Experience</span>
+                            <span class="exp-badge"><i class="fas fa-user-check"></i> 1,000+ Surgeries</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Digestive System Medical Illustration Card -->
+                <div class="hero-digestive-card">
+                    <img src="assets/digestive-art.svg" alt="Digestive Health System" class="hero-digestive-art">
+                    <div class="hero-digestive-text">
+                        <h4>Specialist GI &amp; Gut Motility Care</h4>
+                        <p>Thorough evaluation of reflux, stomach inflammation, bowel regularity, and liver wellness.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Doctor Intro -->
-    <section class="doctor-intro">
+    <!-- 4. Digestive Health Introduction (Editorial Layout) -->
+    <section class="digestive-intro-section" id="understand-gut">
         <div class="container">
-            <div class="doctor-content">
-                <div class="doctor-img-wrap reveal reveal-left">
-                    <img src="assets/doctor.png" alt="Dr. Deepak B G">
+            <div class="editorial-grid">
+                <!-- Left Editorial Text -->
+                <div class="editorial-content reveal">
+                    <span class="section-subtitle"><i class="fas fa-heart-pulse"></i> Gut Health Foundations</span>
+                    <h2>Understand Your Gut. Take Care of Your Health.</h2>
+                    <p class="editorial-lead">
+                        Your digestive system is central to overall vitality, immunity, and nutrient absorption. Yet chronic symptoms like acidity, persistent bloating, or irregular bowel habits are frequently overlooked until they disrupt daily life.
+                    </p>
+                    <p class="editorial-text">
+                        At DBG Gastro Care, we believe that effective treatment begins with listening carefully to your clinical history. Rather than merely suppressing discomfort, our specialist-led approach focuses on identifying root physiological causes—whether an inflamed stomach lining, motility dysfunction, or biliary imbalance.
+                    </p>
+
+                    <div class="editorial-quote-box">
+                        <p>"Accurate clinical evaluation and compassionate explanation empower patients to make informed decisions for long-term digestive well-being."</p>
+                        <span>— Dr. Deepak B G, Surgical Gastroenterologist</span>
+                    </div>
+
+                    <div class="editorial-stats-row">
+                        <div class="editorial-stat-card">
+                            <strong>10+</strong>
+                            <span>Years Clinical Practice</span>
+                        </div>
+                        <div class="editorial-stat-card">
+                            <strong>1,000+</strong>
+                            <span>Successful Surgeries</span>
+                        </div>
+                        <div class="editorial-stat-card">
+                            <strong>100%</strong>
+                            <span>Specialist-Led Evaluation</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="doctor-details reveal reveal-right">
-                    <h2 data-key="doc_name">Dr. Deepak B G</h2>
-                    <p style="color: var(--primary-green); font-weight: bold; margin-bottom: 5px;" data-key="doc_degree">MS from JIPMER, MCh from GB Pant Institute</p>
-                    <p style="font-weight: bold; margin-bottom: 15px;" data-key="doc_specialty">A surgical gastroenterologist</p>
-                    <p data-key="doc_desc_1">Dr. Deepak B, a distinguished surgical gastroenterologist based in Mysore, boasts a decade of valuable experience in the field. His educational background includes an MS in Surgery from the prestigious JIPMER and an MCh in Surgical Gastroenterology from the renowned GB Pant Institute in Delhi.</p>
-                    <ul style="margin-top: 15px; margin-bottom: 20px; list-style-type: none;">
-                        <li><i class="fas fa-check-circle" style="color: var(--primary-green); margin-right: 8px;"></i> <span data-key="doc_bullet_1">Over 1000 successful GI oncology surgeries</span></li>
-                        <li><i class="fas fa-check-circle" style="color: var(--primary-green); margin-right: 8px;"></i> <span data-key="doc_bullet_2">More than 500 advanced laparoscopic procedures</span></li>
-                        <li><i class="fas fa-check-circle" style="color: var(--primary-green); margin-right: 8px;"></i> <span data-key="doc_bullet_3">Numerous intricate hepato-pancreatico-biliary surgeries</span></li>
-                        <li><i class="fas fa-check-circle" style="color: var(--primary-green); margin-right: 8px;"></i> <span data-key="doc_bullet_4">Challenging redo and revision surgeries</span></li>
-                        <li><i class="fas fa-check-circle" style="color: var(--primary-green); margin-right: 8px;"></i> <span data-key="doc_bullet_5">Comprehensive management of complex gastrointestinal disorders</span></li>
-                    </ul>
-                    <a href="about.html" class="btn btn-outline" data-key="btn_read_profile">Read Full Profile</a>
+
+                <!-- Right Visual Anatomy Card (3D Digestive System & Animated Sentences) -->
+                <div class="editorial-visual-card reveal">
+                    <div class="anatomy-header">
+                        <span class="anatomy-live-tag"><i class="fas fa-wave-pulse"></i> 3D Clinical GI Mapping</span>
+                        <h4>Digestive System Anatomy &amp; Care Areas</h4>
+                        <span>Specialised clinical focus across the entire gastrointestinal tract</span>
+                    </div>
+
+                    <!-- 3D Realistic Medical Digestive Visual Frame -->
+                    <div class="anatomy-3d-frame">
+                        <img src="assets/digestive-system-3d.jpg?v=4.5" alt="3D Human Digestive System Anatomy - Esophagus, Stomach, Liver, Intestines" class="anatomy-3d-img">
+                        <div class="anatomy-scanline"></div>
+                        <div class="anatomy-floating-badge top-left">
+                            <span class="badge-dot pulse-red"></span>
+                            <span>Stomach &amp; Gastric Motility</span>
+                        </div>
+                        <div class="anatomy-floating-badge bottom-right">
+                            <span class="badge-dot pulse-green"></span>
+                            <span>Intestinal Motility Axis</span>
+                        </div>
+                    </div>
+
+                    <!-- Dynamic Animated Sentence Ticker (Innovative Animated GI Information) -->
+                    <div class="anatomy-sentence-ticker" id="anatomyTicker">
+                        <div class="ticker-header-bar">
+                            <span class="ticker-pulse-icon"><i class="fas fa-microscope"></i></span>
+                            <span class="ticker-title">Clinical Gastro Insights</span>
+                            <span class="ticker-step-indicator" id="tickerIndicator">1 of 4</span>
+                        </div>
+                        <div class="ticker-content-box">
+                            <p class="ticker-sentence active" data-index="0">
+                                <i class="fas fa-arrow-right-long text-parrot"></i> 
+                                <strong>Upper GI &amp; Gastric Motility:</strong> Regulates acidic food breakdown, protects mucosal lining, and manages gastric emptying rate.
+                            </p>
+                            <p class="ticker-sentence" data-index="1">
+                                <i class="fas fa-arrow-right-long text-orange"></i> 
+                                <strong>Small Intestinal Absorption:</strong> Coordinates nutrient, electrolyte, and vitamin uptake across more than 20 feet of mucosal villi surface.
+                            </p>
+                            <p class="ticker-sentence" data-index="2">
+                                <i class="fas fa-arrow-right-long text-parrot"></i> 
+                                <strong>Colonic Health &amp; Regularity:</strong> Coordinates fluid reabsorption, microbial fermentation, and balanced stool transit without straining.
+                            </p>
+                            <p class="ticker-sentence" data-index="3">
+                                <i class="fas fa-arrow-right-long text-magenta"></i> 
+                                <strong>Hepato-Biliary Wellness:</strong> Manages continuous bile secretion, liver enzyme balance, and metabolic detoxification.
+                            </p>
+                        </div>
+                        <div class="ticker-progress-track">
+                            <div class="ticker-progress-bar" id="tickerProgressBar"></div>
+                        </div>
+                    </div>
+
+                    <!-- 3 Structured Care Points with Dynamic Highlights -->
+                    <div class="anatomy-points" id="anatomyPointsList">
+                        <div class="anatomy-point-item active-zone" data-zone="0">
+                            <span class="zone-icon-chip upper"><i class="fas fa-shield-halved"></i></span>
+                            <div class="zone-text-group">
+                                <strong>Upper GI:</strong> Esophagus, stomach, and duodenal mucosal health
+                            </div>
+                            <i class="fas fa-check-circle check-icon"></i>
+                        </div>
+                        <div class="anatomy-point-item" data-zone="3">
+                            <span class="zone-icon-chip biliary"><i class="fas fa-vial-virus"></i></span>
+                            <div class="zone-text-group">
+                                <strong>Hepato–Biliary:</strong> Liver wellness, gallbladder, and biliary tract
+                            </div>
+                            <i class="fas fa-check-circle check-icon"></i>
+                        </div>
+                        <div class="anatomy-point-item" data-zone="2">
+                            <span class="zone-icon-chip lower"><i class="fas fa-arrows-spin"></i></span>
+                            <div class="zone-text-group">
+                                <strong>Lower GI:</strong> Small intestine motility, colon health, and bowel habits
+                            </div>
+                            <i class="fas fa-check-circle check-icon"></i>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Procedures Section -->
-    <section class="procedures-section">
+    <!-- 5. Common Patient Concerns (Interactive Symptom Explorer) -->
+    <section class="patient-concerns-section" id="services"><span id="concerns" class="section-hash-anchor"></span>
         <div class="container">
             <div class="section-header">
-                <h2 data-key="proc_title">Our Procedures</h2>
-                <p data-key="proc_subtitle">Advanced diagnostic and therapeutic procedures performed with precision and care</p>
+                <span class="section-subtitle"><i class="fas fa-notes-medical"></i> Common Digestive Concerns</span>
+                <h2>What Digestive Symptoms Are You Experiencing?</h2>
+                <p>
+                    Digestive disorders manifest in diverse ways. Explore common concerns below to understand their symptoms, clinical approach, and when to seek specialist evaluation.
+                </p>
             </div>
-            <div class="procedures-grid">
 
-                <div class="procedure-card reveal reveal-up hover-lift" onclick="window.location.href='procedures.html'" style="cursor: pointer;">
-                    <div class="procedure-img">
-                        <img src="assets/capsule.png" alt="Capsule Endoscopy">
-                        <div class="procedure-icon-wrap">
-                            <i class="fas fa-capsules"></i>
-                        </div>
-                    </div>
-                    <div class="procedure-content">
-                        <h4 data-key="capsule_title">Capsule Endoscopy</h4>
-                        <p data-key="capsule_desc">A swallowable capsule camera to visualize the small intestine in detail.</p>
-                    </div>
+            <!-- Symptom Explorer Component -->
+            <div class="symptom-explorer reveal">
+                <!-- Navigation Tabs -->
+                <div class="symptom-nav-tabs" id="symptomTabs" role="tablist">
+                    <button type="button" class="symptom-tab-btn active" data-target="gerd" role="tab" aria-selected="true">
+                        <i class="fas fa-fire-flame-simple"></i> Acidity &amp; Reflux
+                    </button>
+                    <button type="button" class="symptom-tab-btn" data-target="gastritis" role="tab" aria-selected="false">
+                        <i class="fas fa-shield-halved"></i> Gastritis &amp; Indigestion
+                    </button>
+                    <button type="button" class="symptom-tab-btn" data-target="pain" role="tab" aria-selected="false">
+                        <i class="fas fa-stethoscope"></i> Abdominal Discomfort
+                    </button>
+                    <button type="button" class="symptom-tab-btn" data-target="bloating" role="tab" aria-selected="false">
+                        <i class="fas fa-cloud"></i> Bloating &amp; Gas
+                    </button>
+                    <button type="button" class="symptom-tab-btn" data-target="ibs" role="tab" aria-selected="false">
+                        <i class="fas fa-arrows-spin"></i> IBS &amp; Bowel Habits
+                    </button>
+                    <button type="button" class="symptom-tab-btn" data-target="constipation" role="tab" aria-selected="false">
+                        <i class="fas fa-hourglass-half"></i> Constipation
+                    </button>
+                    <button type="button" class="symptom-tab-btn" data-target="liver" role="tab" aria-selected="false">
+                        <i class="fas fa-vial-virus"></i> Liver &amp; Biliary Health
+                    </button>
                 </div>
 
-                <div class="procedure-card reveal reveal-up hover-lift" onclick="window.location.href='procedures.html'" style="cursor: pointer; transition-delay: 0.1s;">
-                    <div class="procedure-img">
-                        <img src="assets/barium.png" alt="Barium Study">
-                        <div class="procedure-icon-wrap">
-                            <i class="fas fa-x-ray"></i>
+                <!-- Panels Container -->
+                <div class="symptom-panels-container">
+                    <!-- Panel 1: Acidity & GERD -->
+                    <div class="symptom-panel active" id="panel-gerd">
+                        <div class="symptom-panel-grid">
+                            <div class="symptom-panel-info">
+                                <h3><i class="fas fa-fire-flame-simple text-orange"></i> Acidity &amp; Acid Reflux (GERD)</h3>
+                                <p class="symptom-desc">
+                                    Persistent heartburn, sour acid regurgitation into the throat, or a burning sensation behind the breastbone often indicate Gastroesophageal Reflux Disease (GERD). Over time, chronic reflux can cause esophageal mucosal irritation and requires targeted medical protocols.
+                                </p>
+                                <div class="symptom-bullet-title">Common Indicators:</div>
+                                <ul class="symptom-checklist">
+                                    <li><i class="fas fa-check"></i> Frequent post-meal burning</li>
+                                    <li><i class="fas fa-check"></i> Regurgitation of acid or food</li>
+                                    <li><i class="fas fa-check"></i> Discomfort worsened lying down</li>
+                                    <li><i class="fas fa-check"></i> Difficulty or pain swallowing</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" onclick="openAppointmentModal('gerd')">
+                                    <i class="fas fa-calendar-check"></i> Book Consultation for Acid Reflux
+                                </button>
+                            </div>
+                            <div class="symptom-panel-side">
+                                <span class="symptom-side-badge">Specialist Focus</span>
+                                <h4>Diagnostic Workup</h4>
+                                <p>We evaluate your dietary triggers, medication response, and recommend Upper GI Endoscopy only when symptoms persist or red-flag features are present.</p>
+                                <a href="#appointment" class="btn btn-teal" style="width: 100%;">Consult Dr. Deepak</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="procedure-content">
-                        <h4 data-key="barium_title">Barium Study</h4>
-                        <p data-key="barium_desc">Imaging technique to examine the digestive tract using barium contrast.</p>
-                    </div>
-                </div>
 
-                <div class="procedure-card reveal reveal-up hover-lift" onclick="window.location.href='procedures.html'" style="cursor: pointer; transition-delay: 0.2s;">
-                    <div class="procedure-img">
-                        <img src="assets/sigmoidoscopy.png" alt="Sigmoidoscopy">
-                        <div class="procedure-icon-wrap">
-                            <i class="fas fa-search-plus"></i>
+                    <!-- Panel 2: Gastritis -->
+                    <div class="symptom-panel" id="panel-gastritis">
+                        <div class="symptom-panel-grid">
+                            <div class="symptom-panel-info">
+                                <h3><i class="fas fa-shield-halved text-teal"></i> Gastritis &amp; Indigestion (Dyspepsia)</h3>
+                                <p class="symptom-desc">
+                                    Gastritis involves inflammation or erosion of the stomach's protective lining. Symptoms include gnawing upper abdominal burning, early satiety, nausea, and frequent belching. Identifying factors like H. pylori or medication irritation is essential for lasting relief.
+                                </p>
+                                <div class="symptom-bullet-title">Common Indicators:</div>
+                                <ul class="symptom-checklist">
+                                    <li><i class="fas fa-check"></i> Upper stomach ache or burning</li>
+                                    <li><i class="fas fa-check"></i> Feeling full after small meals</li>
+                                    <li><i class="fas fa-check"></i> Chronic nausea or loss of appetite</li>
+                                    <li><i class="fas fa-check"></i> Recurrent unrefreshing digestion</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" onclick="openAppointmentModal('gastritis')">
+                                    <i class="fas fa-calendar-check"></i> Book Consultation for Gastritis
+                                </button>
+                            </div>
+                            <div class="symptom-panel-side">
+                                <span class="symptom-side-badge">Specialist Focus</span>
+                                <h4>Mucosal Healing</h4>
+                                <p>Structured therapy focusing on mucosal protection, eradicating underlying irritants, and establishing gut-friendly nutrition.</p>
+                                <a href="#appointment" class="btn btn-teal" style="width: 100%;">Consult Dr. Deepak</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="procedure-content">
-                        <h4 data-key="sigmoidoscopy_title">Sigmoidoscopy</h4>
-                        <p data-key="sigmoidoscopy_desc">Examination of the lower large intestine to detect abnormalities.</p>
-                    </div>
-                </div>
 
-                <div class="procedure-card reveal reveal-up hover-lift" onclick="window.location.href='procedures.html'" style="cursor: pointer;">
-                    <div class="procedure-img">
-                        <img src="assets/ercp.png" alt="ERCP">
-                        <div class="procedure-icon-wrap">
-                            <i class="fas fa-hospital"></i>
+                    <!-- Panel 3: Abdominal Pain -->
+                    <div class="symptom-panel" id="panel-pain">
+                        <div class="symptom-panel-grid">
+                            <div class="symptom-panel-info">
+                                <h3><i class="fas fa-stethoscope text-orange"></i> Abdominal Discomfort &amp; Pain</h3>
+                                <p class="symptom-desc">
+                                    Abdominal pain can stem from numerous digestive organs, ranging from simple gas entrapment to gallbladder gallstones, peptic ulceration, or appendix inflammation. Systematic clinical localization is the key to prompt and safe recovery.
+                                </p>
+                                <div class="symptom-bullet-title">Common Indicators:</div>
+                                <ul class="symptom-checklist">
+                                    <li><i class="fas fa-check"></i> Localized cramp or sharp ache</li>
+                                    <li><i class="fas fa-check"></i> Pain radiating to back or shoulder</li>
+                                    <li><i class="fas fa-check"></i> Discomfort tied to fatty foods</li>
+                                    <li><i class="fas fa-check"></i> Tenderness on gentle pressure</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" onclick="openAppointmentModal('abdominal_pain')">
+                                    <i class="fas fa-calendar-check"></i> Book Pain Assessment
+                                </button>
+                            </div>
+                            <div class="symptom-panel-side">
+                                <span class="symptom-side-badge">Specialist Focus</span>
+                                <h4>Clinical Diagnostic Map</h4>
+                                <p>Systematic abdominal palpation, ultrasound imaging guidance, and targeted evaluation ensure safe diagnosis without unnecessary tests.</p>
+                                <a href="#appointment" class="btn btn-teal" style="width: 100%;">Consult Dr. Deepak</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="procedure-content">
-                        <h4 data-key="ercp_title">ERCP</h4>
-                        <p data-key="ercp_desc">Procedure to diagnose and treat problems in the liver, gallbladder and bile ducts.</p>
-                    </div>
-                </div>
 
-                <div class="procedure-card reveal reveal-up hover-lift" onclick="window.location.href='procedures.html'" style="cursor: pointer; transition-delay: 0.1s;">
-                    <div class="procedure-img">
-                        <img src="assets/colonoscopy.png" alt="Colonoscopy">
-                        <div class="procedure-icon-wrap">
-                            <i class="fas fa-microscope"></i>
+                    <!-- Panel 4: Bloating -->
+                    <div class="symptom-panel" id="panel-bloating">
+                        <div class="symptom-panel-grid">
+                            <div class="symptom-panel-info">
+                                <h3><i class="fas fa-cloud text-teal"></i> Chronic Bloating &amp; Gas</h3>
+                                <p class="symptom-desc">
+                                    Persistent abdominal distension, tightness, and excessive flatulence can arise from delayed stomach emptying, food intolerances, bacterial imbalances, or functional gut motility disorders.
+                                </p>
+                                <div class="symptom-bullet-title">Common Indicators:</div>
+                                <ul class="symptom-checklist">
+                                    <li><i class="fas fa-check"></i> Visible abdominal swelling by evening</li>
+                                    <li><i class="fas fa-check"></i> Heavy, uncomfortable sensation</li>
+                                    <li><i class="fas fa-check"></i> Sluggish intestinal transit</li>
+                                    <li><i class="fas fa-check"></i> Discomfort after specific foods</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" onclick="openAppointmentModal('general')">
+                                    <i class="fas fa-calendar-check"></i> Book Bloating Evaluation
+                                </button>
+                            </div>
+                            <div class="symptom-panel-side">
+                                <span class="symptom-side-badge">Specialist Focus</span>
+                                <h4>Motility Optimization</h4>
+                                <p>Personalised dietary adjustments, microbiome support, and gut motility optimization to restore light and effortless digestion.</p>
+                                <a href="#appointment" class="btn btn-teal" style="width: 100%;">Consult Dr. Deepak</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="procedure-content">
-                        <h4 data-key="colonoscopy_title">Colonoscopy</h4>
-                        <p data-key="colonoscopy_desc">Visual examination of the entire large intestine and distal small intestine.</p>
-                    </div>
-                </div>
 
-                <div class="procedure-card reveal reveal-up hover-lift" onclick="window.location.href='procedures.html'" style="cursor: pointer; transition-delay: 0.2s;">
-                    <div class="procedure-img">
-                        <img src="assets/upper_gi.png" alt="Upper GI Endoscopy">
-                        <div class="procedure-icon-wrap">
-                            <i class="fas fa-stethoscope"></i>
+                    <!-- Panel 5: IBS -->
+                    <div class="symptom-panel" id="panel-ibs">
+                        <div class="symptom-panel-grid">
+                            <div class="symptom-panel-info">
+                                <h3><i class="fas fa-arrows-spin text-orange"></i> IBS &amp; Bowel Irregularities</h3>
+                                <p class="symptom-desc">
+                                    Irritable Bowel Syndrome (IBS) is a common gastrointestinal disorder affecting how the brain and gut communicate. It typically presents as alternating diarrhea and constipation, abdominal cramps, and relief after bowel evacuation.
+                                </p>
+                                <div class="symptom-bullet-title">Common Indicators:</div>
+                                <ul class="symptom-checklist">
+                                    <li><i class="fas fa-check"></i> Unpredictable stool frequency</li>
+                                    <li><i class="fas fa-check"></i> Straining or urgent bowel calls</li>
+                                    <li><i class="fas fa-check"></i> Cramping relieved by passing stool</li>
+                                    <li><i class="fas fa-check"></i> Mucus in stool without bleeding</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" onclick="openAppointmentModal('ibs')">
+                                    <i class="fas fa-calendar-check"></i> Book Consultation for IBS
+                                </button>
+                            </div>
+                            <div class="symptom-panel-side">
+                                <span class="symptom-side-badge">Specialist Focus</span>
+                                <h4>Gut-Brain Axis Protocols</h4>
+                                <p>Individualized treatment incorporating gentle motility regulators, stress-gut counseling, and targeted dietary strategies.</p>
+                                <a href="#appointment" class="btn btn-teal" style="width: 100%;">Consult Dr. Deepak</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="procedure-content">
-                        <h4 data-key="uppergi_title">Upper GI Endoscopy</h4>
-                        <p data-key="uppergi_desc">Examination of the esophagus, stomach and the first part of the small intestine.</p>
+
+                    <!-- Panel 6: Constipation -->
+                    <div class="symptom-panel" id="panel-constipation">
+                        <div class="symptom-panel-grid">
+                            <div class="symptom-panel-info">
+                                <h3><i class="fas fa-hourglass-half text-teal"></i> Chronic Constipation</h3>
+                                <p class="symptom-desc">
+                                    Infrequent bowel movements (fewer than three per week), hard lumpy stools, and excessive straining can signal slow colonic transit or pelvic floor dyssynergia. Addressing causes early prevents secondary anorectal complications.
+                                </p>
+                                <div class="symptom-bullet-title">Common Indicators:</div>
+                                <ul class="symptom-checklist">
+                                    <li><i class="fas fa-check"></i> Straining during bowel movement</li>
+                                    <li><i class="fas fa-check"></i> Sensation of incomplete evacuation</li>
+                                    <li><i class="fas fa-check"></i> Hard or dry stool consistency</li>
+                                    <li><i class="fas fa-check"></i> Reliance on over-the-counter laxatives</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" onclick="openAppointmentModal('constipation')">
+                                    <i class="fas fa-calendar-check"></i> Book Constipation Care
+                                </button>
+                            </div>
+                            <div class="symptom-panel-side">
+                                <span class="symptom-side-badge">Specialist Focus</span>
+                                <h4>Colonic Regularity</h4>
+                                <p>Structured fibre titrations, osmotic motility support, and specialized evaluation to restore natural, strain-free bowel habits.</p>
+                                <a href="#appointment" class="btn btn-teal" style="width: 100%;">Consult Dr. Deepak</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Panel 7: Liver Health -->
+                    <div class="symptom-panel" id="panel-liver">
+                        <div class="symptom-panel-grid">
+                            <div class="symptom-panel-info">
+                                <h3><i class="fas fa-vial-virus text-magenta"></i> Liver &amp; Biliary Health</h3>
+                                <p class="symptom-desc">
+                                    The liver is your primary metabolic organ. Non-alcoholic fatty liver disease (NAFLD), elevated liver enzymes (SGOT/SGPT), and gallbladder sluggishness frequently develop silently without pronounced early pain. Early screening preserves long-term cellular health.
+                                </p>
+                                <div class="symptom-bullet-title">Common Indicators:</div>
+                                <ul class="symptom-checklist">
+                                    <li><i class="fas fa-check"></i> Unexplained chronic fatigue</li>
+                                    <li><i class="fas fa-check"></i> Incidental fatty liver on ultrasound</li>
+                                    <li><i class="fas fa-check"></i> Heaviness in upper right abdomen</li>
+                                    <li><i class="fas fa-check"></i> Elevated liver enzymes in routine checkups</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" onclick="openAppointmentModal('liver')">
+                                    <i class="fas fa-calendar-check"></i> Book Liver Consultation
+                                </button>
+                            </div>
+                            <div class="symptom-panel-side">
+                                <span class="symptom-side-badge">Specialist Focus</span>
+                                <h4>Metabolic Evaluation</h4>
+                                <p>Comprehensive liver function tests, viral screening, and structured lifestyle-dietary reversal protocols for fatty liver disease.</p>
+                                <a href="#appointment" class="btn btn-teal" style="width: 100%;">Consult Dr. Deepak</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- 6. Our Approach to Patient Care (Advanced Animated Patient Journey) -->
+    <section class="patient-approach-section" id="approach">
+        
+
+        <div class="container" style="position: relative; z-index: 2;">
+            <div class="section-header">
+                <span class="section-subtitle"><i class="fas fa-route"></i> The Patient Journey</span>
+                <h2>Our Approach to Patient Care</h2>
+                <p>
+                    Every patient’s digestive situation is unique. We follow a systematic, compassionate five-step pathway designed to give you clarity, comfort, and sustainable recovery.
+                </p>
+            </div>
+
+            <div class="journey-pathway-container reveal" id="journeyPathway">
+                <!-- Continuous Traveling Pathway Beam -->
+                <div class="journey-timeline-line">
+                    <div class="journey-timeline-beam" id="journeyTimelineBeam"></div>
+                </div>
+
+                <!-- 5 Sequentially Animated Steps -->
+                <div class="journey-steps-row" id="journeyStepsRow">
+                    <!-- Step 1 -->
+                    <div class="journey-step-item active" data-step="0" tabindex="0" role="button" aria-label="Step 1: Understand Concerns">
+                        <div class="journey-node-wrap">
+                            <div class="journey-pulse-ring"></div>
+                            <div class="journey-node-num">1</div>
+                        </div>
+                        <h4>Understand Concerns</h4>
+                        <p>Detailed discussion of symptoms, previous investigations, lifestyle, and dietary triggers.</p>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="journey-step-item" data-step="1" tabindex="0" role="button" aria-label="Step 2: Appropriate Consultation">
+                        <div class="journey-node-wrap">
+                            <div class="journey-pulse-ring"></div>
+                            <div class="journey-node-num">2</div>
+                        </div>
+                        <h4>Appropriate Consultation</h4>
+                        <p>Thorough physical examination with Dr. Deepak B G in our private clinic consultation suite.</p>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="journey-step-item" data-step="2" tabindex="0" role="button" aria-label="Step 3: Targeted Investigations">
+                        <div class="journey-node-wrap">
+                            <div class="journey-pulse-ring"></div>
+                            <div class="journey-node-num">3</div>
+                        </div>
+                        <h4>Targeted Investigations</h4>
+                        <p>Evidence-based diagnostic testing—such as blood panels, ultrasound, or endoscopy—only when clinically necessary.</p>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="journey-step-item" data-step="3" tabindex="0" role="button" aria-label="Step 4: Individualised Care Plan">
+                        <div class="journey-node-wrap">
+                            <div class="journey-pulse-ring"></div>
+                            <div class="journey-node-num">4</div>
+                        </div>
+                        <h4>Individualised Care Plan</h4>
+                        <p>A transparently discussed treatment strategy covering medical therapy, nutrition, or surgical guidance.</p>
+                    </div>
+
+                    <!-- Step 5 -->
+                    <div class="journey-step-item" data-step="4" tabindex="0" role="button" aria-label="Step 5: Follow-up Guidance">
+                        <div class="journey-node-wrap">
+                            <div class="journey-pulse-ring"></div>
+                            <div class="journey-node-num">5</div>
+                        </div>
+                        <h4>Follow-up Guidance</h4>
+                        <p>Continuous clinical review, medication titration, and long-term preventive gut wellness monitoring.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Procedures & Diagnostic Care (Editorial Showcase Layout) -->
+    <section class="procedures-section" id="procedures">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle"><i class="fas fa-microscope"></i> Specialized Clinical Procedures</span>
+                <h2>Procedures &amp; Diagnostic Care</h2>
+                <p>
+                    Advanced endoscopic evaluations and surgical interventions performed with patient-first precision and rigorous safety protocols in Mysuru.
+                </p>
+            </div>
+
+            <div class="procedures-editorial-list">
+                <!-- Procedure 1: Upper GI Endoscopy -->
+                <div class="procedure-editorial-item reveal">
+                    <div class="procedure-thumb-wrap">
+                        <img src="assets/upper_gi.png" alt="Upper GI Endoscopy Diagnostic Examination">
+                    </div>
+                    <div class="procedure-body">
+                        <span class="procedure-badge">Diagnostic &amp; Therapeutic</span>
+                        <h3>Upper GI Endoscopy</h3>
+                        <p>
+                            A specialized, minimally invasive visual examination of the esophagus, stomach, and duodenum. It allows direct mucosal inspection to accurately diagnose ulcers, acid reflux damage, H. pylori infections, and unexplained upper abdominal pain.
+                        </p>
+                        <div class="procedure-meta-tags">
+                            <span class="meta-chip"><i class="fas fa-clock"></i> 10–15 Mins</span>
+                            <span class="meta-chip"><i class="fas fa-bed"></i> Day Care Procedure</span>
+                            <span class="meta-chip"><i class="fas fa-shield"></i> High Comfort &amp; Sedation</span>
+                        </div>
+                        <button type="button" class="btn btn-outline-teal" onclick="openAppointmentModal('endoscopy')">
+                            <i class="fas fa-info-circle"></i> Enquire for Endoscopy
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Procedure 2: Colonoscopy (Reversed Layout) -->
+                <div class="procedure-editorial-item reversed reveal">
+                    <div class="procedure-thumb-wrap">
+                        <img src="assets/colonoscopy.png" alt="Colonoscopy Diagnostic Examination">
+                    </div>
+                    <div class="procedure-body">
+                        <span class="procedure-badge">Preventive &amp; Screening</span>
+                        <h3>Colonoscopy</h3>
+                        <p>
+                            Comprehensive visual evaluation of the large intestine (colon) and rectum using a flexible high-definition video scope. Crucial for evaluating chronic diarrhea, rectal bleeding, unexplained anemia, and screening for polyps or colonic health.
+                        </p>
+                        <div class="procedure-meta-tags">
+                            <span class="meta-chip"><i class="fas fa-clock"></i> 20–30 Mins</span>
+                            <span class="meta-chip"><i class="fas fa-user-check"></i> Preventive Screening</span>
+                            <span class="meta-chip"><i class="fas fa-magnifying-glass"></i> Full Mucosal View</span>
+                        </div>
+                        <button type="button" class="btn btn-outline-teal" onclick="openAppointmentModal('colonoscopy')">
+                            <i class="fas fa-info-circle"></i> Enquire for Colonoscopy
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Procedure 3: Capsule Endoscopy -->
+                <div class="procedure-editorial-item reveal">
+                    <div class="procedure-thumb-wrap">
+                        <img src="assets/capsule.png" alt="Capsule Endoscopy Pill Camera">
+                    </div>
+                    <div class="procedure-body">
+                        <span class="procedure-badge">Advanced Non-Invasive</span>
+                        <h3>Capsule Endoscopy</h3>
+                        <p>
+                            A non-invasive diagnostic technique where the patient swallows a small pill-sized video camera that captures thousands of high-definition images as it passes naturally through the small intestine—an area difficult to view with standard endoscopes.
+                        </p>
+                        <div class="procedure-meta-tags">
+                            <span class="meta-chip"><i class="fas fa-pills"></i> Swallowed Pill Camera</span>
+                            <span class="meta-chip"><i class="fas fa-route"></i> Small Intestine Focus</span>
+                            <span class="meta-chip"><i class="fas fa-smile"></i> Completely Non-Invasive</span>
+                        </div>
+                        <button type="button" class="btn btn-outline-teal" onclick="openAppointmentModal('general')">
+                            <i class="fas fa-info-circle"></i> Enquire for Capsule Study
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Procedure 4: Laparoscopic GI Surgery (Reversed Layout) -->
+                <div class="procedure-editorial-item reversed reveal">
+                    <div class="procedure-thumb-wrap">
+                        <img src="assets/laparoscopy.png" alt="Laparoscopic Gastrointestinal Surgery">
+                    </div>
+                    <div class="procedure-body">
+                        <span class="procedure-badge">Minimally Invasive Surgery</span>
+                        <h3>Advanced Laparoscopic GI Surgery</h3>
+                        <p>
+                            Specialist surgical interventions performed through tiny keyhole incisions, including gallbladder removal for gallstones, complex hernia repairs, appendix removal, and GI oncology resections. Ensures reduced postoperative pain and rapid recovery.
+                        </p>
+                        <div class="procedure-meta-tags">
+                            <span class="meta-chip"><i class="fas fa-compress"></i> Keyhole Incisions</span>
+                            <span class="meta-chip"><i class="fas fa-person-walking"></i> Quicker Recovery</span>
+                            <span class="meta-chip"><i class="fas fa-award"></i> 1000+ Surgeries</span>
+                        </div>
+                        <button type="button" class="btn btn-primary" onclick="openAppointmentModal('general')">
+                            <i class="fas fa-calendar-check"></i> Book Surgical Consultation
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Doctor Profile Section (Premium Asymmetric Layout) -->
+    <section class="doctor-profile-section" id="about"><span id="about-doctor" class="section-hash-anchor"></span>
+        <div class="container">
+            <div class="doctor-profile-grid">
+                <!-- Left: Original Doctor Portrait -->
+                <div class="doctor-portrait-box reveal">
+                    <div class="doctor-portrait-wrap">
+                        <img src="assets/doctor.png?v=4.5" alt="Dr. Deepak B G - Premier Surgical Gastroenterologist in Mysore">
+                    </div>
+                </div>
+
+                <!-- Right: Clinical Biography -->
+                <div class="doctor-bio-box reveal">
+                    <span class="section-subtitle"><i class="fas fa-user-md"></i> Clinical Leadership</span>
+                    <h2>Dr. Deepak B G</h2>
+                    <div class="doctor-lead-degree">MS (JIPMER, Puducherry) • MCh (GB Pant Institute, New Delhi)</div>
+                    <div class="doctor-specialty-line">Specialist Surgical Gastroenterologist &amp; GI Oncology Surgeon</div>
+
+                    <p>
+                        Dr. Deepak B G is a distinguished surgical gastroenterologist with more than a decade of specialized surgical experience. Trained at India’s premier medical institutes (JIPMER and GB Pant Institute), he combines meticulous surgical precision with empathetic patient-first clinical guidance.
+                    </p>
+                    <p>
+                        His clinical practice spans advanced laparoscopic gastrointestinal procedures, complex hepato-pancreatico-biliary (HPB) surgeries, gastrointestinal cancer surgeries, and challenging redo and revision operations.
+                    </p>
+
+                    <ul class="doctor-bullets-grid">
+                        <li><i class="fas fa-check-circle"></i> Over 1,000 successful GI surgeries</li>
+                        <li><i class="fas fa-check-circle"></i> 500+ advanced laparoscopic procedures</li>
+                        <li><i class="fas fa-check-circle"></i> Complex pancreatic &amp; biliary surgeries</li>
+                        <li><i class="fas fa-check-circle"></i> Dedicated evening consultation clinic</li>
+                    </ul>
+
+                    <div class="hero-buttons">
+                        <a href="#appointment" class="btn btn-primary">
+                            <i class="fas fa-calendar-check"></i> Book Consultation
+                        </a>
+                        <a href="tel:+919019270985" class="btn btn-call">
+                            <i class="fas fa-phone-alt"></i> Call +91 90192 70985
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. Health Insights Section (Flowing Editorial Panels Showcase) -->
+    <section class="health-insights-section" id="insights">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle"><i class="fas fa-book-medical"></i> Clinical Knowledge Hub</span>
+                <h2>Health Insights: Understanding Your Digestive Health</h2>
+                <p>
+                    Evidence-based, practical digestive health guidance curated by Dr. Deepak B G and our clinical team to help you understand symptoms and protect long-term gut vitality.
+                </p>
+            </div>
+
+            <!-- Flowing Editorial Showcase Container -->
+            <div class="insights-flowing-container" id="insightsFlowContainer">
+                <!-- Gastroenterology Organic Pathway Visual Background -->
+                <div class="insights-pathway-backdrop" aria-hidden="true">
+                    <svg class="insights-pathway-svg" viewBox="0 0 1440 280" fill="none" preserveAspectRatio="none">
+                        <path d="M0,140 C280,240 460,40 720,140 C980,240 1160,40 1440,140" stroke="rgba(7, 89, 101, 0.12)" stroke-width="3" stroke-dasharray="8 8" />
+                        <path d="M0,140 C280,240 460,40 720,140 C980,240 1160,40 1440,140" stroke="url(#gastroGlowGrad)" stroke-width="2.5" class="gastro-flow-beam" />
+                        <defs>
+                            <linearGradient id="gastroGlowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="#7CBF32" stop-opacity="0" />
+                                <stop offset="45%" stop-color="#7CBF32" stop-opacity="0.9" />
+                                <stop offset="65%" stop-color="#F49A38" stop-opacity="0.9" />
+                                <stop offset="100%" stop-color="#075965" stop-opacity="0" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+
+                <!-- Editorial Moving Track (Flowing Continuous Editorial Panels) -->
+                <div class="editorial-flow-viewport" id="flowViewport" tabindex="0" role="region" aria-label="Health Insights Moving Articles">
+                    <div class="editorial-flow-track" id="flowTrack">
+                        <!-- SET 1 (Left Loop Buffer) -->
+<article class="editorial-panel shape-1 theme-orange" data-article="gerd">
+                            <div class="panel-inner">
+                                <div class="panel-meta-row">
+                                    <span class="panel-tag tag-orange"><i class="fas fa-fire-flame-simple"></i> Acid Reflux</span>
+                                    <span class="panel-readtime"><i class="far fa-clock"></i> 4 min read</span>
+                                </div>
+                                <h3>Understanding Acidity &amp; Reflux: When Heartburn Needs Specialist Attention</h3>
+                                <p>Occasional acidity after spicy food is common, but recurrent heartburn or regurgitation multiple times weekly signals GERD. Learn why early care prevents esophageal injury.</p>
+                                <div class="panel-action-row">
+                                    <button type="button" class="btn-editorial-read" onclick="openInsightArticle('gerd')" aria-label="Read article on Acid Reflux">
+                                        <span>Read Article</span> <i class="fas fa-arrow-right"></i>
+                                    </button>
+                                </div>
+                                <div class="panel-organic-glow"></div>
+                            </div>
+                        </article>
+
+                        <!-- Panel 2: Bloating -->
+                        <article class="editorial-panel shape-2 theme-leaf" data-article="bloating">
+                            <div class="panel-inner">
+                                <div class="panel-meta-row">
+                                    <span class="panel-tag tag-leaf"><i class="fas fa-cloud"></i> Gut Health</span>
+                                    <span class="panel-readtime"><i class="far fa-clock"></i> 5 min read</span>
+                                </div>
+                                <h3>Common Causes of Persistent Bloating: Food Intolerances &amp; Motility</h3>
+                                <p>Discover why abdominal bloating occurs by evening, how slow gut transit contributes, and practical steps to differentiate dietary gas from clinical functional disorders.</p>
+                                <div class="panel-action-row">
+                                    <button type="button" class="btn-editorial-read" onclick="openInsightArticle('bloating')" aria-label="Read article on Persistent Bloating">
+                                        <span>Read Article</span> <i class="fas fa-arrow-right"></i>
+                                    </button>
+                                </div>
+                                <div class="panel-organic-glow"></div>
+                            </div>
+                        </article>
+
+                        <!-- Panel 3: Bowel Habits -->
+                        <article class="editorial-panel shape-3 theme-parrot" data-article="bowel">
+                            <div class="panel-inner">
+                                <div class="panel-meta-row">
+                                    <span class="panel-tag tag-parrot"><i class="fas fa-arrows-spin"></i> Bowel Care</span>
+                                    <span class="panel-readtime"><i class="far fa-clock"></i> 4 min read</span>
+                                </div>
+                                <h3>Maintaining Healthy Bowel Habits: Diet, Fibre &amp; Gut Regularity</h3>
+                                <p>Regularity is not just about frequency—it involves stool consistency, hydration balance, and pelvic floor coordination. A guide to strain-free digestive transit.</p>
+                                <div class="panel-action-row">
+                                    <button type="button" class="btn-editorial-read" onclick="openInsightArticle('bowel')" aria-label="Read article on Healthy Bowel Habits">
+                                        <span>Read Article</span> <i class="fas fa-arrow-right"></i>
+                                    </button>
+                                </div>
+                                <div class="panel-organic-glow"></div>
+                            </div>
+                        </article>
+
+                        <!-- Panel 4: Gastritis -->
+                        <article class="editorial-panel shape-4 theme-teal" data-article="gastritis">
+                            <div class="panel-inner">
+                                <div class="panel-meta-row">
+                                    <span class="panel-tag tag-teal"><i class="fas fa-shield-halved"></i> Stomach Lining</span>
+                                    <span class="panel-readtime"><i class="far fa-clock"></i> 5 min read</span>
+                                </div>
+                                <h3>Understanding Gastritis: Acute vs Chronic Stomach Lining Irritation</h3>
+                                <p>What causes stomach lining inflammation? Explore the role of H. pylori bacteria, painkillers, stress, and evidence-backed protocols to allow the mucosal barrier to heal.</p>
+                                <div class="panel-action-row">
+                                    <button type="button" class="btn-editorial-read" onclick="openInsightArticle('gastritis')" aria-label="Read article on Gastritis">
+                                        <span>Read Article</span> <i class="fas fa-arrow-right"></i>
+                                    </button>
+                                </div>
+                                <div class="panel-organic-glow"></div>
+                            </div>
+                        </article>
+
+                        <!-- Panel 5: Hydration & Fibre -->
+                        <article class="editorial-panel shape-5 theme-aqua" data-article="hydration">
+                            <div class="panel-inner">
+                                <div class="panel-meta-row">
+                                    <span class="panel-tag tag-aqua"><i class="fas fa-droplet"></i> Nutrition &amp; Gut</span>
+                                    <span class="panel-readtime"><i class="far fa-clock"></i> 3 min read</span>
+                                </div>
+                                <h3>The Importance of Hydration &amp; Fibre in Long-term Digestive Wellness</h3>
+                                <p>Increasing fibre without sufficient water can actually worsen constipation. Learn how soluble and insoluble fibres work together with optimal fluid intake.</p>
+                                <div class="panel-action-row">
+                                    <button type="button" class="btn-editorial-read" onclick="openInsightArticle('hydration')" aria-label="Read article on Hydration & Fibre">
+                                        <span>Read Article</span> <i class="fas fa-arrow-right"></i>
+                                    </button>
+                                </div>
+                                <div class="panel-organic-glow"></div>
+                            </div>
+                        </article>
+
+                        <!-- Panel 6: Red-Flag Symptoms -->
+                        <article class="editorial-panel shape-6 theme-magenta" data-article="redflags">
+                            <div class="panel-inner">
+                                <div class="panel-meta-row">
+                                    <span class="panel-tag tag-magenta"><i class="fas fa-triangle-exclamation"></i> Clinical Notice</span>
+                                    <span class="panel-readtime"><i class="far fa-clock"></i> 4 min read</span>
+                                </div>
+                                <h3>Red-Flag Digestive Symptoms: When to Seek Immediate Medical Evaluation</h3>
+                                <p>Recognize warning signs that should never be ignored—including sudden severe abdominal pain, persistent vomiting with blood, unexplained weight loss, or difficulty swallowing.</p>
+                                <div class="panel-action-row">
+                                    <button type="button" class="btn-editorial-read" onclick="openInsightArticle('redflags')" aria-label="Read article on Red Flag Symptoms">
+                                        <span>Read Article</span> <i class="fas fa-arrow-right"></i>
+                                    </button>
+                                </div>
+                                <div class="panel-organic-glow"></div>
+                            </div>
+                        </article>
+
+                        <!-- SET 2 (Main Centered Showcase) -->
+<article class="editorial-panel shape-1 theme-orange" data-article="gerd">
+                            <div class="panel-inner">
+                                <div class="panel-meta-row">
+                                    <span class="panel-tag tag-orange"><i class="fas fa-fire-flame-simple"></i> Acid Reflux</span>
+                                    <span class="panel-readtime"><i class="far fa-clock"></i> 4 min read</span>
+                                </div>
+                                <h3>Understanding Acidity &amp; Reflux: When Heartburn Needs Specialist Attention</h3>
+                                <p>Occasional acidity after spicy food is common, but recurrent heartburn or regurgitation multiple times weekly signals GERD. Learn why early care prevents esophageal injury.</p>
+                                <div class="panel-action-row">
+                                    <button type="button" class="btn-editorial-read" onclick="openInsightArticle('gerd')" aria-label="Read article on Acid Reflux">
+                                        <span>Read Article</span> <i class="fas fa-arrow-right"></i>
+                                    </button>
+                                </div>
+                                <div class="panel-organic-glow"></div>
+                            </div>
+                        </article>
+
+                        <!-- Panel 2: Bloating -->
+                        <article class="editorial-panel shape-2 theme-leaf" data-article="bloating">
+                            <div class="panel-inner">
+                                <div class="panel-meta-row">
+                                    <span class="panel-tag tag-leaf"><i class="fas fa-cloud"></i> Gut Health</span>
+                                    <span class="panel-readtime"><i class="far fa-clock"></i> 5 min read</span>
+                                </div>
+                                <h3>Common Causes of Persistent Bloating: Food Intolerances &amp; Motility</h3>
+                                <p>Discover why abdominal bloating occurs by evening, how slow gut transit contributes, and practical steps to differentiate dietary gas from clinical functional disorders.</p>
+                                <div class="panel-action-row">
+                                    <button type="button" class="btn-editorial-read" onclick="openInsightArticle('bloating')" aria-label="Read article on Persistent Bloating">
+                                        <span>Read Article</span> <i class="fas fa-arrow-right"></i>
+                                    </button>
+                                </div>
+                                <div class="panel-organic-glow"></div>
+                            </div>
+                        </article>
+
+                        <!-- Panel 3: Bowel Habits -->
+                        <article class="editorial-panel shape-3 theme-parrot" data-article="bowel">
+                            <div class="panel-inner">
+                                <div class="panel-meta-row">
+                                    <span class="panel-tag tag-parrot"><i class="fas fa-arrows-spin"></i> Bowel Care</span>
+                                    <span class="panel-readtime"><i class="far fa-clock"></i> 4 min read</span>
+                                </div>
+                                <h3>Maintaining Healthy Bowel Habits: Diet, Fibre &amp; Gut Regularity</h3>
+                                <p>Regularity is not just about frequency—it involves stool consistency, hydration balance, and pelvic floor coordination. A guide to strain-free digestive transit.</p>
+                                <div class="panel-action-row">
+                                    <button type="button" class="btn-editorial-read" onclick="openInsightArticle('bowel')" aria-label="Read article on Healthy Bowel Habits">
+                                        <span>Read Article</span> <i class="fas fa-arrow-right"></i>
+                                    </button>
+                                </div>
+                                <div class="panel-organic-glow"></div>
+                            </div>
+                        </article>
+
+                        <!-- Panel 4: Gastritis -->
+                        <article class="editorial-panel shape-4 theme-teal" data-article="gastritis">
+                            <div class="panel-inner">
+                                <div class="panel-meta-row">
+                                    <span class="panel-tag tag-teal"><i class="fas fa-shield-halved"></i> Stomach Lining</span>
+                                    <span class="panel-readtime"><i class="far fa-clock"></i> 5 min read</span>
+                                </div>
+                                <h3>Understanding Gastritis: Acute vs Chronic Stomach Lining Irritation</h3>
+                                <p>What causes stomach lining inflammation? Explore the role of H. pylori bacteria, painkillers, stress, and evidence-backed protocols to allow the mucosal barrier to heal.</p>
+                                <div class="panel-action-row">
+                                    <button type="button" class="btn-editorial-read" onclick="openInsightArticle('gastritis')" aria-label="Read article on Gastritis">
+                                        <span>Read Article</span> <i class="fas fa-arrow-right"></i>
+                                    </button>
+                                </div>
+                                <div class="panel-organic-glow"></div>
+                            </div>
+                        </article>
+
+                        <!-- Panel 5: Hydration & Fibre -->
+                        <article class="editorial-panel shape-5 theme-aqua" data-article="hydration">
+                            <div class="panel-inner">
+                                <div class="panel-meta-row">
+                                    <span class="panel-tag tag-aqua"><i class="fas fa-droplet"></i> Nutrition &amp; Gut</span>
+                                    <span class="panel-readtime"><i class="far fa-clock"></i> 3 min read</span>
+                                </div>
+                                <h3>The Importance of Hydration &amp; Fibre in Long-term Digestive Wellness</h3>
+                                <p>Increasing fibre without sufficient water can actually worsen constipation. Learn how soluble and insoluble fibres work together with optimal fluid intake.</p>
+                                <div class="panel-action-row">
+                                    <button type="button" class="btn-editorial-read" onclick="openInsightArticle('hydration')" aria-label="Read article on Hydration & Fibre">
+                                        <span>Read Article</span> <i class="fas fa-arrow-right"></i>
+                                    </button>
+                                </div>
+                                <div class="panel-organic-glow"></div>
+                            </div>
+                        </article>
+
+                        <!-- Panel 6: Red-Flag Symptoms -->
+                        <article class="editorial-panel shape-6 theme-magenta" data-article="redflags">
+                            <div class="panel-inner">
+                                <div class="panel-meta-row">
+                                    <span class="panel-tag tag-magenta"><i class="fas fa-triangle-exclamation"></i> Clinical Notice</span>
+                                    <span class="panel-readtime"><i class="far fa-clock"></i> 4 min read</span>
+                                </div>
+                                <h3>Red-Flag Digestive Symptoms: When to Seek Immediate Medical Evaluation</h3>
+                                <p>Recognize warning signs that should never be ignored—including sudden severe abdominal pain, persistent vomiting with blood, unexplained weight loss, or difficulty swallowing.</p>
+                                <div class="panel-action-row">
+                                    <button type="button" class="btn-editorial-read" onclick="openInsightArticle('redflags')" aria-label="Read article on Red Flag Symptoms">
+                                        <span>Read Article</span> <i class="fas fa-arrow-right"></i>
+                                    </button>
+                                </div>
+                                <div class="panel-organic-glow"></div>
+                            </div>
+                        </article>
+
+                        <!-- SET 3 (Right Loop Buffer) -->
+<article class="editorial-panel shape-1 theme-orange" data-article="gerd">
+                            <div class="panel-inner">
+                                <div class="panel-meta-row">
+                                    <span class="panel-tag tag-orange"><i class="fas fa-fire-flame-simple"></i> Acid Reflux</span>
+                                    <span class="panel-readtime"><i class="far fa-clock"></i> 4 min read</span>
+                                </div>
+                                <h3>Understanding Acidity &amp; Reflux: When Heartburn Needs Specialist Attention</h3>
+                                <p>Occasional acidity after spicy food is common, but recurrent heartburn or regurgitation multiple times weekly signals GERD. Learn why early care prevents esophageal injury.</p>
+                                <div class="panel-action-row">
+                                    <button type="button" class="btn-editorial-read" onclick="openInsightArticle('gerd')" aria-label="Read article on Acid Reflux">
+                                        <span>Read Article</span> <i class="fas fa-arrow-right"></i>
+                                    </button>
+                                </div>
+                                <div class="panel-organic-glow"></div>
+                            </div>
+                        </article>
+
+                        <!-- Panel 2: Bloating -->
+                        <article class="editorial-panel shape-2 theme-leaf" data-article="bloating">
+                            <div class="panel-inner">
+                                <div class="panel-meta-row">
+                                    <span class="panel-tag tag-leaf"><i class="fas fa-cloud"></i> Gut Health</span>
+                                    <span class="panel-readtime"><i class="far fa-clock"></i> 5 min read</span>
+                                </div>
+                                <h3>Common Causes of Persistent Bloating: Food Intolerances &amp; Motility</h3>
+                                <p>Discover why abdominal bloating occurs by evening, how slow gut transit contributes, and practical steps to differentiate dietary gas from clinical functional disorders.</p>
+                                <div class="panel-action-row">
+                                    <button type="button" class="btn-editorial-read" onclick="openInsightArticle('bloating')" aria-label="Read article on Persistent Bloating">
+                                        <span>Read Article</span> <i class="fas fa-arrow-right"></i>
+                                    </button>
+                                </div>
+                                <div class="panel-organic-glow"></div>
+                            </div>
+                        </article>
+
+                        <!-- Panel 3: Bowel Habits -->
+                        <article class="editorial-panel shape-3 theme-parrot" data-article="bowel">
+                            <div class="panel-inner">
+                                <div class="panel-meta-row">
+                                    <span class="panel-tag tag-parrot"><i class="fas fa-arrows-spin"></i> Bowel Care</span>
+                                    <span class="panel-readtime"><i class="far fa-clock"></i> 4 min read</span>
+                                </div>
+                                <h3>Maintaining Healthy Bowel Habits: Diet, Fibre &amp; Gut Regularity</h3>
+                                <p>Regularity is not just about frequency—it involves stool consistency, hydration balance, and pelvic floor coordination. A guide to strain-free digestive transit.</p>
+                                <div class="panel-action-row">
+                                    <button type="button" class="btn-editorial-read" onclick="openInsightArticle('bowel')" aria-label="Read article on Healthy Bowel Habits">
+                                        <span>Read Article</span> <i class="fas fa-arrow-right"></i>
+                                    </button>
+                                </div>
+                                <div class="panel-organic-glow"></div>
+                            </div>
+                        </article>
+
+                        <!-- Panel 4: Gastritis -->
+                        <article class="editorial-panel shape-4 theme-teal" data-article="gastritis">
+                            <div class="panel-inner">
+                                <div class="panel-meta-row">
+                                    <span class="panel-tag tag-teal"><i class="fas fa-shield-halved"></i> Stomach Lining</span>
+                                    <span class="panel-readtime"><i class="far fa-clock"></i> 5 min read</span>
+                                </div>
+                                <h3>Understanding Gastritis: Acute vs Chronic Stomach Lining Irritation</h3>
+                                <p>What causes stomach lining inflammation? Explore the role of H. pylori bacteria, painkillers, stress, and evidence-backed protocols to allow the mucosal barrier to heal.</p>
+                                <div class="panel-action-row">
+                                    <button type="button" class="btn-editorial-read" onclick="openInsightArticle('gastritis')" aria-label="Read article on Gastritis">
+                                        <span>Read Article</span> <i class="fas fa-arrow-right"></i>
+                                    </button>
+                                </div>
+                                <div class="panel-organic-glow"></div>
+                            </div>
+                        </article>
+
+                        <!-- Panel 5: Hydration & Fibre -->
+                        <article class="editorial-panel shape-5 theme-aqua" data-article="hydration">
+                            <div class="panel-inner">
+                                <div class="panel-meta-row">
+                                    <span class="panel-tag tag-aqua"><i class="fas fa-droplet"></i> Nutrition &amp; Gut</span>
+                                    <span class="panel-readtime"><i class="far fa-clock"></i> 3 min read</span>
+                                </div>
+                                <h3>The Importance of Hydration &amp; Fibre in Long-term Digestive Wellness</h3>
+                                <p>Increasing fibre without sufficient water can actually worsen constipation. Learn how soluble and insoluble fibres work together with optimal fluid intake.</p>
+                                <div class="panel-action-row">
+                                    <button type="button" class="btn-editorial-read" onclick="openInsightArticle('hydration')" aria-label="Read article on Hydration & Fibre">
+                                        <span>Read Article</span> <i class="fas fa-arrow-right"></i>
+                                    </button>
+                                </div>
+                                <div class="panel-organic-glow"></div>
+                            </div>
+                        </article>
+
+                        <!-- Panel 6: Red-Flag Symptoms -->
+                        <article class="editorial-panel shape-6 theme-magenta" data-article="redflags">
+                            <div class="panel-inner">
+                                <div class="panel-meta-row">
+                                    <span class="panel-tag tag-magenta"><i class="fas fa-triangle-exclamation"></i> Clinical Notice</span>
+                                    <span class="panel-readtime"><i class="far fa-clock"></i> 4 min read</span>
+                                </div>
+                                <h3>Red-Flag Digestive Symptoms: When to Seek Immediate Medical Evaluation</h3>
+                                <p>Recognize warning signs that should never be ignored—including sudden severe abdominal pain, persistent vomiting with blood, unexplained weight loss, or difficulty swallowing.</p>
+                                <div class="panel-action-row">
+                                    <button type="button" class="btn-editorial-read" onclick="openInsightArticle('redflags')" aria-label="Read article on Red Flag Symptoms">
+                                        <span>Read Article</span> <i class="fas fa-arrow-right"></i>
+                                    </button>
+                                </div>
+                                <div class="panel-organic-glow"></div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Interactive Flow Controls Bar -->
+                <div class="flow-controls-bar">
+                    <div class="flow-status-indicator">
+                        <span class="status-pulsing-dot"></span>
+                        <span class="status-label" id="flowStatusLabel">Interactive Clinical Showcase • Move cursor or drag left / right to steer</span>
+                    </div>
+                    <div class="flow-buttons-group">
+                        <button type="button" class="flow-nav-btn" id="flowPrevBtn" aria-label="Previous article panel" title="Previous article">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button type="button" class="flow-nav-btn" id="flowToggleBtn" aria-label="Pause or resume flow" title="Pause / Resume flow">
+                            <i class="fas fa-pause" id="flowToggleIcon"></i>
+                        </button>
+                        <button type="button" class="flow-nav-btn" id="flowNextBtn" aria-label="Next article panel" title="Next article">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- 10. Smart Appointment Booking Section (Preserved Global Header Consistency) -->
+    <section class="appointment-section" id="appointment">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle"><i class="fas fa-calendar-check"></i> Clinic Appointments</span>
+                <h2>Book Your Consultation</h2>
+                <p>
+                    Schedule an evening consultation with Dr. Deepak B G at DBG Gastro Care Mysuru. Fill in your details below or launch our smart booking modal.
+                </p>
+            </div>
+
+            <div class="appointment-card-container reveal">
+                <div class="appointment-form-card">
+                    <form id="inlineApptForm" class="appointment-form">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="inlineName"><i class="fas fa-user"></i> Patient Full Name *</label>
+                                <input type="text" id="inlineName" class="form-control" placeholder="e.g. Ramesh Kumar" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="inlinePhone"><i class="fas fa-phone"></i> Mobile Number *</label>
+                                <input type="tel" id="inlinePhone" class="form-control" placeholder="10-digit mobile number" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="inlineEmail"><i class="fas fa-envelope"></i> Email Address (Optional)</label>
+                                <input type="email" id="inlineEmail" class="form-control" placeholder="name@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="inlineDate"><i class="fas fa-calendar-day"></i> Preferred Date * (Mon–Sat)</label>
+                                <input type="date" id="inlineDate" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="inlineTime"><i class="fas fa-clock"></i> Evening Time Slot *</label>
+                                <select id="inlineTime" class="form-control" required>
+                                    <option value="6:00 PM – 7:00 PM">6:00 PM – 7:00 PM</option>
+                                    <option value="7:00 PM – 8:00 PM">7:00 PM – 8:00 PM</option>
+                                    <option value="8:00 PM – 9:00 PM">8:00 PM – 9:00 PM</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="inlineService"><i class="fas fa-stethoscope"></i> Consultation Type *</label>
+                                <select id="inlineService" class="form-control" required>
+                                    <option value="general">General Gastroenterology Consultation</option>
+                                    <option value="gerd">Acid Reflux / GERD</option>
+                                    <option value="gastritis">Gastritis and Indigestion</option>
+                                    <option value="abdominal_pain">Abdominal Pain Consultation</option>
+                                    <option value="ibs">IBS and Bowel Health</option>
+                                    <option value="constipation">Constipation and Digestive Health</option>
+                                    <option value="liver">Liver and Digestive Health</option>
+                                    <option value="followup">Follow-up Consultation</option>
+                                    <option value="endoscopy">Endoscopy Enquiry (Requires Confirmation)</option>
+                                    <option value="colonoscopy">Colonoscopy Enquiry (Requires Confirmation)</option>
+                                    <option value="other">Other Digestive Health Concern</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group" style="margin-top: 18px;">
+                            <label for="inlineSymptoms"><i class="fas fa-notes-medical"></i> Symptoms or Reason for Visit (Optional)</label>
+                            <textarea id="inlineSymptoms" class="form-control" rows="3" placeholder="Briefly describe your symptoms, duration, or previous treatments..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-submit-appt">
+                            <i class="fas fa-paper-plane"></i> Submit Consultation Request
+                        </button>
+
+                        <div class="toast-notice"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 11. Reach Us & Contact Section (Deep Teal Background) -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-layout-grid">
+                <!-- Left Column: Reach Us Card -->
+                <div class="reach-us-card reveal">
+                    <div>
+                        <h3>Reach Us</h3>
+                        <div class="reach-us-items">
+                            <div class="reach-us-item">
+                                <i class="fas fa-location-dot"></i>
+                                <div class="reach-us-item-text">
+                                    <strong>DBG Gastro Care</strong><br>
+                                    C&amp;D Block, 1533, Anikethana Road,<br>
+                                    Kuvempunagara North, Mysuru, Karnataka 570023
+                                </div>
+                            </div>
+
+                            <div class="reach-us-item">
+                                <i class="fas fa-phone"></i>
+                                <div class="reach-us-item-text">
+                                    <a href="tel:+919019270985">+91 – 90192 70985</a><br>
+                                    <span style="font-size: 0.82rem; opacity: 0.85;">Direct Clinic Reception &amp; Booking Line</span>
+                                </div>
+                            </div>
+
+                            <div class="reach-us-item">
+                                <i class="fas fa-envelope"></i>
+                                <div class="reach-us-item-text">
+                                    <a href="mailto:info@dbggastrocare.com">info@dbggastrocare.com</a>
+                                </div>
+                            </div>
+
+                            <div class="reach-us-item">
+                                <i class="fas fa-clock"></i>
+                                <div class="reach-us-item-text">
+                                    <strong style="color: #FFFFFF; font-size: 0.95rem;">Visiting Hours:</strong><br>
+                                    Mon – Sat: 6:00 PM – 9:00 PM<br>
+                                    <span style="color: #FCA5A5; font-weight: 700;">Sunday: Holiday</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="reach-us-action">
+                        <button type="button" class="btn" onclick="openAppointmentModal('general')">
+                            <i class="fas fa-calendar-check"></i> Book Appointment
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Right Column: Interactive Google Map Card -->
+                <div class="map-display-card reveal">
+                    <div class="map-embed-container">
+                        <iframe 
+                            src="https://maps.google.com/maps?q=DBG%20Gastro%20care%20Mysuru&t=&z=17&ie=UTF8&iwloc=B&output=embed" 
+                            title="DBG Gastro Care Location Map" 
+                            loading="lazy" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <a href="https://maps.google.com/maps?q=DBG%20Gastro%20care%20Mysuru" target="_blank" rel="noopener noreferrer" class="map-directions-link">
+                        <span>Get directions on Google Maps &rarr;</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 12. Premium Footer -->
     <footer>
         <div class="container">
             <div class="footer-content">
                 <div class="footer-col">
-                    <h3 data-key="footer_clinic_name">DBG Gastro Care</h3>
-                    <p data-key="footer_clinic_desc">Expert Care for a Healthier Gut. Advanced surgical gastroenterology in Mysore.</p>
-                    <div class="social-links">
-                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
-                    </div>
+                    <a href="index.html" class="footer-logo">
+                        <img src="assets/logo.png?v=4.5" alt="DBG Gastro Care">
+                    </a>
+                    <p>
+                        Specialist surgical gastroenterology, advanced laparoscopy, and comprehensive digestive healthcare led by Dr. Deepak B G in Mysuru. Dedicated to patient-first precision and gut wellness.
+                    </p>
                 </div>
+
                 <div class="footer-col">
-                    <h3 data-key="footer_quick_links">Quick Links</h3>
+                    <h3>Quick Navigation</h3>
                     <div class="footer-links">
-                        <a href="index.html" data-key="nav_home">Home</a>
-                        <a href="about.html" data-key="nav_about">About Us</a>
-                        <a href="services.html" data-key="nav_services">Services</a>
-                        <a href="procedures.html" data-key="nav_procedures">Procedures</a>
-                        <a href="contact.html" data-key="nav_contact">Contact</a>
+                        <a href="index.html"><i class="fas fa-chevron-right"></i> Home</a>
+                        <a href="about.html"><i class="fas fa-chevron-right"></i> About Dr. Deepak</a>
+                        <a href="services.html"><i class="fas fa-chevron-right"></i> Services</a>
+                        <a href="procedures.html"><i class="fas fa-chevron-right"></i> Procedures</a>
+                        <a href="#insights"><i class="fas fa-chevron-right"></i> Health Insights</a>
+                        <a href="#appointment"><i class="fas fa-chevron-right"></i> Book Appointment</a>
+                        <a href="contact.html"><i class="fas fa-chevron-right"></i> Contact Us</a>
                     </div>
                 </div>
+
                 <div class="footer-col">
-                    <h3 data-key="footer_contact_info">Contact Info</h3>
+                    <h3>Specialist Areas</h3>
                     <div class="footer-links">
-                        <p><i class="fas fa-map-marker-alt"></i> <span data-key="contact_location">C&D block, 1533, Anikethana Rd, Kuvempunagara North, Mysuru</span></p>
-                        <p><i class="fas fa-phone"></i> +91 90192 70985</p>
-                        <p><i class="fas fa-envelope"></i> info@dbggastrocare.com</p>
+                        <a href="#concerns"><i class="fas fa-chevron-right"></i> Acid Reflux (GERD)</a>
+                        <a href="#concerns"><i class="fas fa-chevron-right"></i> Gastritis &amp; Indigestion</a>
+                        <a href="#concerns"><i class="fas fa-chevron-right"></i> IBS &amp; Bowel Health</a>
+                        <a href="#concerns"><i class="fas fa-chevron-right"></i> Fatty Liver Screening</a>
+                        <a href="procedures.html"><i class="fas fa-chevron-right"></i> Upper GI Endoscopy</a>
+                        <a href="procedures.html"><i class="fas fa-chevron-right"></i> Colonoscopy</a>
                     </div>
                 </div>
-                <div class="footer-col">
-                    <h3 data-key="footer_visiting_hours">Visiting Hours</h3>
-                    <div class="visiting-hours">
-                        <p><span data-key="footer_mon_sat">Mon - Sat:</span> <span data-key="footer_time">6:00 PM – 9:00 PM</span></p>
-                        <p><span data-key="footer_sun">Sunday:</span> <span data-key="footer_holiday">Holiday</span></p>
-                    </div>
+
+                <div class="footer-col footer-hours">
+                    <h3>Clinic Location &amp; Hours</h3>
+                    <p><i class="fas fa-map-marker-alt" style="color: var(--soft-orange);"></i> C&amp;D Block, 1533, Anikethana Rd, Kuvempunagara North, Mysuru</p>
+                    <p><i class="fas fa-phone-alt" style="color: var(--soft-orange);"></i> <a href="tel:+919019270985" style="color: inherit;">+91 – 90192 70985</a></p>
+                    <p style="margin-top: 10px;"><strong>Visiting Hours:</strong></p>
+                    <p>Mon – Sat: <strong>6:00 PM – 9:00 PM</strong></p>
+                    <p>Sunday: <strong style="color: #F87171;">Holiday</strong></p>
                 </div>
             </div>
+
             <div class="footer-bottom">
-                <p data-key="footer_copyright">&copy; 2026 DBG Gastro Care. All Rights Reserved.</p>
+                <p>&copy; 2026 DBG Gastro Care. All Rights Reserved. Client-approved asset identity preserved. Designed for compassionate patient care.</p>
             </div>
         </div>
     </footer>
 
-    <script src="translations.js"></script>
-    <script src="script.js"></script>
+    <!-- 13. Smart Appointment Booking Modal (4-Step Flow) -->
+    <div id="appointmentModal" class="appt-modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" style="display: none;">
+        <div class="appt-modal-overlay" id="modalBackdrop"></div>
+        <div class="appt-modal-container">
+            <div class="appt-modal-card">
+                <!-- Modal Header -->
+                <div class="appt-modal-header">
+                    <div>
+                        <span class="modal-badge"><i class="fas fa-calendar-check"></i> DBG Gastro Care</span>
+                        <h3 id="modalTitle">Smart Appointment Booking</h3>
+                    </div>
+                    <button type="button" class="modal-close-btn" id="closeModalBtn" aria-label="Close modal">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+
+                <!-- Stepper Progress Bar -->
+                <div class="modal-stepper">
+                    <div class="step-indicator active" data-step="1">
+                        <div class="step-num">1</div>
+                        <span class="step-text">Patient</span>
+                    </div>
+                    <div class="step-line"></div>
+                    <div class="step-indicator" data-step="2">
+                        <div class="step-num">2</div>
+                        <span class="step-text">Consultation</span>
+                    </div>
+                    <div class="step-line"></div>
+                    <div class="step-indicator" data-step="3">
+                        <div class="step-num">3</div>
+                        <span class="step-text">Schedule</span>
+                    </div>
+                    <div class="step-line"></div>
+                    <div class="step-indicator" data-step="4">
+                        <div class="step-num">4</div>
+                        <span class="step-text">Confirm</span>
+                    </div>
+                </div>
+
+                <!-- Modal Body Form -->
+                <form id="smartBookingForm" novalidate>
+                    <!-- STEP 1: Patient Information -->
+                    <div class="modal-step-panel active" id="stepPanel1">
+                        <h4 class="step-heading"><i class="fas fa-user-circle"></i> Patient Details</h4>
+                        <p class="step-subtext">Please provide your details for clinic registration and consultation records.</p>
+
+                        <div class="form-grid-modal">
+                            <div class="modal-field">
+                                <label for="patientName"><i class="fas fa-user"></i> Full Name <span class="req">*</span></label>
+                                <input type="text" id="patientName" class="modal-input" placeholder="e.g. Ramesh Kumar" required>
+                                <span class="field-error" id="nameError">Please enter the patient's full name.</span>
+                            </div>
+
+                            <div class="modal-field">
+                                <label for="patientPhone"><i class="fas fa-phone"></i> Mobile Number <span class="req">*</span></label>
+                                <input type="tel" id="patientPhone" class="modal-input" placeholder="e.g. 9876543210" required>
+                                <span class="field-error" id="phoneError">Please enter a valid 10-digit mobile number.</span>
+                            </div>
+
+                            <div class="modal-field">
+                                <label for="patientEmail"><i class="fas fa-envelope"></i> Email Address <span class="opt">(Optional)</span></label>
+                                <input type="email" id="patientEmail" class="modal-input" placeholder="e.g. name@example.com">
+                                <span class="field-error" id="emailError">Please enter a valid email address.</span>
+                            </div>
+
+                            <div class="modal-field">
+                                <label for="patientType"><i class="fas fa-user-tag"></i> Patient Status <span class="req">*</span></label>
+                                <select id="patientType" class="modal-select" required>
+                                    <option value="new">New Patient (First Visit)</option>
+                                    <option value="returning">Returning / Follow-up Patient</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="modal-actions right-only">
+                            <button type="button" class="btn btn-primary btn-step-next" id="goToStep2">
+                                Continue to Consultation <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- STEP 2: Consultation & Facility -->
+                    <div class="modal-step-panel" id="stepPanel2">
+                        <h4 class="step-heading"><i class="fas fa-stethoscope"></i> Select Consultation Facility</h4>
+                        <p class="step-subtext">Choose your specialized digestive care area or clinical consultation type.</p>
+
+                        <div class="selected-service-pill" id="selectedServiceBanner">
+                            <i class="fas fa-circle-check"></i>
+                            <div>
+                                <strong id="selectedServicePillTitle">General Gastroenterology Consultation</strong>
+                                <span id="selectedServicePillNote">Specialist clinical consultation with Dr. Deepak B G</span>
+                            </div>
+                        </div>
+
+                        <div class="modal-field" style="margin-top: 18px;">
+                            <label for="consultationSelect">What type of consultation or service do you need? <span class="req">*</span></label>
+                            <select id="consultationSelect" class="modal-select" required>
+                                <option value="general">General Gastroenterology Consultation</option>
+                                <option value="gerd">Acid Reflux / GERD</option>
+                                <option value="gastritis">Gastritis and Indigestion</option>
+                                <option value="abdominal_pain">Abdominal Pain Consultation</option>
+                                <option value="ibs">IBS and Bowel Health</option>
+                                <option value="constipation">Constipation and Digestive Health</option>
+                                <option value="liver">Liver and Digestive Health</option>
+                                <option value="followup">Follow-up Consultation</option>
+                                <option value="endoscopy">Endoscopy Enquiry (Requires Confirmation)</option>
+                                <option value="colonoscopy">Colonoscopy Enquiry (Requires Confirmation)</option>
+                                <option value="other">Other Digestive Health Concern</option>
+                            </select>
+                            <span class="field-error" id="consultError">Please select a consultation type.</span>
+                        </div>
+
+                        <div class="modal-field" style="margin-top: 14px;">
+                            <label><i class="fas fa-hospital-user"></i> Consultation Mode <span class="req">*</span></label>
+                            <div class="radio-toggle-group">
+                                <label class="radio-chip active">
+                                    <input type="radio" name="consultMode" value="in_person" checked>
+                                    <i class="fas fa-location-dot"></i> In-Person Visit (Mysuru Clinic)
+                                </label>
+                                <label class="radio-chip">
+                                    <input type="radio" name="consultMode" value="online">
+                                    <i class="fas fa-video"></i> Online Teleconsultation
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="modal-actions">
+                            <button type="button" class="btn btn-step-back" id="backToStep1">
+                                <i class="fas fa-arrow-left"></i> Back
+                            </button>
+                            <button type="button" class="btn btn-primary btn-step-next" id="goToStep3">
+                                Choose Date &amp; Time <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- STEP 3: Date & Evening Time Slot -->
+                    <div class="modal-step-panel" id="stepPanel3">
+                        <h4 class="step-heading"><i class="fas fa-calendar-alt"></i> Appointment Schedule</h4>
+                        <p class="step-subtext">Visiting hours: <strong>Mon – Sat: 6:00 PM – 9:00 PM</strong> (Sunday: Closed).</p>
+
+                        <div class="form-grid-modal">
+                            <div class="modal-field">
+                                <label for="apptDate"><i class="fas fa-calendar-day"></i> Preferred Date <span class="req">*</span></label>
+                                <input type="date" id="apptDate" class="modal-input" required>
+                                <span class="field-error" id="dateError">Please select a valid upcoming date (Mon–Sat).</span>
+                                <div class="sunday-warning" id="sundayNotice" style="display: none;">
+                                    <i class="fas fa-circle-exclamation"></i> The clinic is closed on Sundays. Please choose Monday to Saturday.
+                                </div>
+                            </div>
+
+                            <div class="modal-field">
+                                <label for="apptTimeSlot"><i class="fas fa-clock"></i> Evening Time Slot <span class="req">*</span></label>
+                                <select id="apptTimeSlot" class="modal-select" required>
+                                    <option value="6:00 PM – 7:00 PM" selected>6:00 PM – 7:00 PM</option>
+                                    <option value="7:00 PM – 8:00 PM">7:00 PM – 8:00 PM</option>
+                                    <option value="8:00 PM – 9:00 PM">8:00 PM – 9:00 PM</option>
+                                </select>
+                                <span class="field-error" id="timeError">Please select a preferred slot.</span>
+                            </div>
+                        </div>
+
+                        <div class="modal-field" style="margin-top: 14px;">
+                            <label for="symptomsDesc"><i class="fas fa-notes-medical"></i> Symptoms or Medical Concerns <span class="opt">(Optional)</span></label>
+                            <textarea id="symptomsDesc" class="modal-textarea" rows="3" placeholder="Describe any current symptoms, duration, or previous treatments..."></textarea>
+                        </div>
+
+                        <div class="modal-actions">
+                            <button type="button" class="btn btn-step-back" id="backToStep2">
+                                <i class="fas fa-arrow-left"></i> Back
+                            </button>
+                            <button type="button" class="btn btn-primary btn-step-next" id="goToStep4">
+                                Review &amp; Submit <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- STEP 4: Review and Submit -->
+                    <div class="modal-step-panel" id="stepPanel4">
+                        <h4 class="step-heading"><i class="fas fa-clipboard-check"></i> Review Your Appointment</h4>
+                        <p class="step-subtext">Please verify your details before submitting your consultation request.</p>
+
+                        <div class="review-summary-card">
+                            <div class="review-row">
+                                <span class="review-label"><i class="fas fa-user"></i> Patient:</span>
+                                <strong class="review-value" id="revName">—</strong>
+                            </div>
+                            <div class="review-row">
+                                <span class="review-label"><i class="fas fa-phone"></i> Mobile:</span>
+                                <strong class="review-value" id="revPhone">—</strong>
+                            </div>
+                            <div class="review-row" id="revEmailRow">
+                                <span class="review-label"><i class="fas fa-envelope"></i> Email:</span>
+                                <span class="review-value" id="revEmail">—</span>
+                            </div>
+                            <div class="review-row">
+                                <span class="review-label"><i class="fas fa-stethoscope"></i> Service:</span>
+                                <strong class="review-value text-teal" id="revService">—</strong>
+                            </div>
+                            <div class="review-row">
+                                <span class="review-label"><i class="fas fa-hospital-user"></i> Mode:</span>
+                                <span class="review-value" id="revMode">—</span>
+                            </div>
+                            <div class="review-row">
+                                <span class="review-label"><i class="fas fa-calendar-day"></i> Schedule:</span>
+                                <strong class="review-value" id="revSchedule">—</strong>
+                            </div>
+                        </div>
+
+                        <div class="submission-feedback-box" id="submissionFeedback" style="display: none;"></div>
+
+                        <div class="modal-actions">
+                            <button type="button" class="btn btn-step-back" id="backToStep3">
+                                <i class="fas fa-arrow-left"></i> Edit Details
+                            </button>
+                            <button type="submit" class="btn btn-primary btn-submit-request" id="submitApptBtn">
+                                <span class="btn-text"><i class="fas fa-paper-plane"></i> Submit Appointment Request</span>
+                                <span class="btn-spinner" style="display: none;"><i class="fas fa-circle-notch fa-spin"></i> Processing...</span>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- 14. Health Insights Article Reader Modal -->
+    <div id="insightArticleModal" class="appt-modal" role="dialog" aria-modal="true" aria-labelledby="insightModalTitle" style="display: none;">
+        <div class="appt-modal-overlay" id="insightBackdrop"></div>
+        <div class="appt-modal-container">
+            <div class="appt-modal-card">
+                <div class="appt-modal-header">
+                    <div>
+                        <span class="modal-badge"><i class="fas fa-book-medical"></i> Health Insights</span>
+                        <h3 id="insightModalTitle">Digestive Health Guide</h3>
+                    </div>
+                    <button type="button" class="modal-close-btn" id="closeInsightBtn" aria-label="Close article">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div style="padding: 28px; overflow-y: auto;">
+                    <div id="insightArticleContent" style="line-height: 1.75; color: var(--dark-charcoal);"></div>
+                    <div style="margin-top: 24px; padding-top: 18px; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center;">
+                        <span style="font-size: 0.82rem; color: var(--text-muted);"><i class="fas fa-stethoscope"></i> Verified by Dr. Deepak B G</span>
+                        <button type="button" class="btn btn-primary" onclick="closeInsightModal(); openAppointmentModal('general');">
+                            Book Consultation for This
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="translations.js?v=4.5"></script>
+    <script src="script.js?v=4.6"></script>
 </body>
 </html>
